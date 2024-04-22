@@ -199,7 +199,7 @@ h1 {
          float: right;
          margin-top: 0px;
          margin-bottom: 0px;
-         font-size: 16px;
+         font-size: 20px;
      }
 
      .home:hover {
@@ -207,7 +207,7 @@ h1 {
      }
      
      .about-blank {
-        width:  90px; 
+        width:  112px; 
         height: 30px;
         border-radius: 42px;
         cursor: pointer; 
@@ -218,7 +218,7 @@ h1 {
          float: left;
          margin-top: 0px;
          margin-bottom: 0px;
-         font-size: 16px;
+         font-size: 20px;
      }
 
      .about-blank:hover {
