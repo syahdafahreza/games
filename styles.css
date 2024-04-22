@@ -696,7 +696,7 @@ h1 {
       background-position: center;
       height: 150px;
       width: 160px;
-      font-size: 20px;
+      font-size: 18px;
       color: white; 
       font-weight: bold;
       padding-top: 120px;
@@ -729,7 +729,6 @@ h1 {
       margin: 20px;
       cursor: pointer;
       margin-top: 6vh;
-      margin-left: 46vh;
      }
 
      .lolshot:hover {
@@ -826,6 +825,7 @@ h1 {
       margin: 20px;
       cursor: pointer;
       margin-top: 6vh;
+      margin-left: 46vh;
      }
 
      .worlds-hardest-game:hover {
@@ -850,10 +850,34 @@ h1 {
       margin: 20px;
       cursor: pointer;
       margin-top: 6vh;
-      margin-left: 46vh;
      }
 
      .WHG2:hover {
+      border-color: purple;
+      box-shadow: 5px 5px purple;
+     }
+
+     .volly-random {
+      background-color: rgb(21, 20, 20);
+      background-image: url('volly\ random.jpg');
+      background-size: 95px;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 150px;
+      width: 160px;
+      font-size: 21px;
+      color: white; 
+      font-weight: bold;
+      padding-top: 120px;
+      border-style: ridge;
+      border-radius: 15px;
+      margin: 20px;
+      cursor: pointer;
+      margin-top: 6vh;
+      margin-left: 46vh;
+     }
+
+     .volly-random:hover {
       border-color: purple;
       box-shadow: 5px 5px purple;
      }
