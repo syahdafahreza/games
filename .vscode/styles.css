@@ -1,0 +1,860 @@
+body {
+   background-color: rgb(21, 20, 20);
+}
+
+h1 {
+    color: white;
+    font-size: 80px;
+    font-family: bold;
+    font-style: arial;
+    text-align: center;
+    }
+
+    h2 {
+      color: white;
+      font-size: 50px;
+      font-family: bold;
+      font-style: arial;
+      text-align: right;
+      margin-right: 1vw;
+      margin-bottom: 0vh;
+    }
+
+    iframe {
+      height: 85vh;
+      width: 75vw;
+      border-style: ridge;
+      background-color: white;
+      margin-top: 0vh;
+      border-color: white;
+   }
+
+    .topnav {
+        overflow: hidden;
+        background-color: black;
+         top: 0px;
+         right: 0px;
+        width: 100vw;
+        height: 5vh;
+      position: absolute;
+     }
+
+     .Games {
+        width:  90px; 
+        height: 30px;
+        border-radius: 42px;
+        cursor: pointer; 
+        border: none;
+        background-color: black;
+        color: white; 
+         float: top; 
+         float: right;
+         margin-top: 0px;
+         margin-bottom: 0px;
+         font-size: 20px;
+    }
+
+    .Games:hover {
+      background-color: rgb(6, 184, 255);
+    }
+
+    .Apps {
+        float: top;
+        float: right;
+        border: none;
+        width: 90px; 
+        height: 30px;
+        border-radius: 36px;
+        cursor: pointer;
+        background-color: black;
+        background-position: center;
+        font-size: 20px;
+        color: white
+    }
+
+    .Apps:hover {
+        background-color: rgb(6, 184, 255);
+      }
+
+      
+      .home {
+        width:  90px; 
+        height: 30px;
+        border-radius: 42px;
+        cursor: pointer; 
+        border: none;
+        background-color: black;
+        color: white; 
+         float: top; 
+         float: right;
+         margin-top: 0px;
+         margin-bottom: 0px;
+         font-size: 16px;
+     }
+
+     .home:hover {
+     background-color: rgb(6, 184, 255);
+     }
+
+     .about-blank {
+        width:  90px; 
+        height: 30px;
+        border-radius: 42px;
+        cursor: pointer; 
+        border: none;
+        background-color: black;
+        color: white; 
+         float: top; 
+         float: left;
+         margin-top: 0px;
+         margin-bottom: 0px;
+         font-size: 16px;
+     }
+
+     .about-blank:hover {
+        background-color: rgb(6, 184, 255);
+     }
+
+     .eaglercraft {
+        background-color: rgb(32, 29, 29);
+        background-image: url('eaglercraft.png');
+        background-position: center; 
+        background-repeat: no-repeat;
+        background-size: 95px;
+        font-size: 21px;
+        color: white;
+        font-weight: bold;
+        padding-top: 120px;
+        width: 160px;
+        height: 150px;
+        border-style: ridge;
+        border-radius: 15px;
+        margin-top: 6vh;
+        margin: 20px;
+        cursor: pointer;
+        margin-left: 16vw;
+     }
+
+     .eaglercraft:hover {
+        border-color: purple;
+        box-shadow: 5px 5px purple;
+     }
+
+.topnav {
+    overflow: hidden;
+    background-color: black;
+     top: 0px;
+     right: 0px;
+    width: 100vw;
+    height: 5vh;
+  position: absolute;
+ }
+
+ .Games {
+    width:  90px; 
+    height: 30px;
+    border-radius: 42px;
+    cursor: pointer; 
+    border: none;
+    background-color: black;
+    color: white; 
+     float: top; 
+     float: right;
+     margin-top: 0px;
+     margin-bottom: 0px;
+     font-size: 20px;
+}
+
+.Games:hover {
+    background-color: rgb(6, 184, 255);
+}
+
+
+    .Apps {
+        float: top;
+        float: right;
+        border: none;
+        width: 90px; 
+        height: 30px;
+        border-radius: 36px;
+        cursor: pointer;
+        background-color: black;
+        background-position: center;
+        font-size: 20px;
+        color: white
+    }
+
+    .Apps:hover {
+      background-color: rgb(6, 184, 255);
+    }
+
+    .home {
+        width:  90px; 
+        height: 30px;
+        border-radius: 42px;
+        cursor: pointer; 
+        border: none;
+        background-color: black;
+        color: white; 
+         float: top; 
+         float: right;
+         margin-top: 0px;
+         margin-bottom: 0px;
+         font-size: 16px;
+     }
+
+     .home:hover {
+     background-color: rgb(6, 184, 255);
+     }
+     
+     .about-blank {
+        width:  90px; 
+        height: 30px;
+        border-radius: 42px;
+        cursor: pointer; 
+        border: none;
+        background-color: black;
+        color: white; 
+         float: top; 
+         float: left;
+         margin-top: 0px;
+         margin-bottom: 0px;
+         font-size: 16px;
+     }
+
+     .about-blank:hover {
+        background-color: rgb(6, 184, 255);
+     }
+
+     .retro-bowl {
+        background-color: rgb(21, 20, 20);
+        background-image: url('retro\ bowl.jpg');
+        background-size: 100px;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 150px;
+        width: 160px;
+        font-size: 21px;
+        color: white; 
+        font-weight: bold;
+        padding-top: 120px;
+        border-style: ridge;
+        border-radius: 15px;
+        margin: 20px;
+        cursor: pointer;
+        margin-top: 6vh;
+     }
+
+     .retro-bowl:hover {
+        border-color: purple;
+        box-shadow: 5px 5px purple;
+     }
+
+     .bing {
+      width: 160px;
+      height: 150px;
+      background-color: rgb(21, 20, 20);
+      background-image: url('bing.jpg');
+      background-position: center;
+      background-size: 100px;
+      background-repeat: no-repeat;
+      font-size: 21px;
+      color: white;
+      font-weight: bold;
+      padding-top: 120px;
+      display: inline-block;
+      margin-top: 6vh;
+      border-style: ridge;
+      border-radius: 15px;
+      cursor: pointer;
+     }
+
+     .bing:hover {
+      border-color: purple;
+      box-shadow: 5px 5px purple;
+     }
+
+     .eggy-car {
+      background-color: rgb(21, 20, 20);
+      background-image: url('eggy\ car.jpg');
+      background-size: 120px;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 150px;
+      width: 160px;
+      font-size: 21px;
+      color: white; 
+      font-weight: bold;
+      padding-top: 120px;
+      border-style: ridge;
+      border-radius: 15px;
+      margin: 20px;
+      cursor: pointer;
+      margin-top: 6vh;
+     }
+
+     .eggy-car:hover {
+      border-color: purple;
+      box-shadow: 5px 5px purple;
+     }
+
+     .among-us {
+      background-color: rgb(21, 20, 20);
+      background-image: url('among\ us.jpg');
+      background-size: 98px;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 150px;
+      width: 160px;
+      font-size: 21px;
+      color: white; 
+      font-weight: bold;
+      padding-top: 120px;
+      border-style: ridge;
+      border-radius: 15px;
+      margin: 20px;
+      cursor: pointer;
+      margin-top: 6vh;
+     }
+
+     .among-us:hover {
+      border-color: purple;
+      box-shadow: 5px 5px purple;
+     }
+
+     .lol {
+      background-color: rgb(21, 20, 20);
+      background-image: url('1v1\ lol.png');
+      background-size: 100px;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 150px;
+      width: 160px;
+      font-size: 21px;
+      color: white; 
+      font-weight: bold;
+      padding-top: 120px;
+      border-style: ridge;
+      border-radius: 15px;
+      margin: 20px;
+      cursor: pointer;
+      margin-top: 6vh;
+     }
+
+     .lol:hover {
+      border-color: purple;
+      box-shadow: 5px 5px purple;
+     }
+
+     .ev-io {
+      background-color: rgb(21, 20, 20);
+      background-image: url('ev\ io.jpg');
+      background-size: 100px;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 150px;
+      width: 160px;
+      font-size: 21px;
+      color: white; 
+      font-weight: bold;
+      padding-top: 120px;
+      border-style: ridge;
+      border-radius: 15px;
+      margin: 20px;
+      cursor: pointer;
+      margin-top: 6vh;
+      margin-left: 16vw;
+     }
+
+     .ev-io:hover {
+      border-color: purple;
+      box-shadow: 5px 5px purple;
+     }
+
+     .cookie-clicker {
+      background-color: rgb(21, 20, 20);
+      background-image: url('cookie.png');
+      background-size: 100px;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 150px;
+      width: 160px;
+      font-size: 21px;
+      color: white; 
+      font-weight: bold;
+      padding-top: 120px;
+      border-style: ridge;
+      border-radius: 15px;
+      margin: 20px;
+      cursor: pointer;
+      margin-top: 6vh;
+     }
+
+     .cookie-clicker:hover {
+      border-color: purple;
+      box-shadow: 5px 5px purple;
+     }
+
+     .basketball-stars {
+      background-color: rgb(21, 20, 20);
+      background-image: url('basketball\ stars.jpg');
+      background-size: 100px;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 150px;
+      width: 160px;
+      font-size: 19.5px;
+      color: white; 
+      font-weight: bold;
+      padding-top: 120px;
+      border-style: ridge;
+      border-radius: 15px;
+      margin: 20px;
+      cursor: pointer;
+      margin-top: 6vh;
+      white-space: nowrap;
+     }
+
+     .basketball-stars:hover {
+      border-color: purple;
+      box-shadow: 5px 5px purple;
+     }
+
+     .drift-boss {
+      background-color: rgb(21, 20, 20);
+      background-image: url('drift\ boss.png');
+      background-size: 95px;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 150px;
+      width: 160px;
+      font-size: 21px;
+      color: white; 
+      font-weight: bold;
+      padding-top: 120px;
+      border-style: ridge;
+      border-radius: 15px;
+      margin: 20px;
+      cursor: pointer;
+      margin-top: 6vh;
+     }
+
+     .drift-boss:hover {
+      border-color: purple;
+      box-shadow: 5px 5px purple;
+     }
+
+     .Bitlife {
+      background-color: rgb(21, 20, 20);
+      background-image: url('bitlife.jpg');
+      background-size: 95px;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 150px;
+      width: 160px;
+      font-size: 21px;
+      color: white; 
+      font-weight: bold;
+      padding-top: 120px;
+      border-style: ridge;
+      border-radius: 15px;
+      margin: 20px;
+      cursor: pointer;
+      margin-top: 6vh;
+     }
+
+     .Bitlife:hover {
+      border-color: purple;
+      box-shadow: 5px 5px purple;
+     }
+
+     .slope {
+      background-color: rgb(21, 20, 20);
+      background-image: url('slope.jpg');
+      background-size: 95px;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 150px;
+      width: 160px;
+      font-size: 21px;
+      color: white; 
+      font-weight: bold;
+      padding-top: 120px;
+      border-style: ridge;
+      border-radius: 15px;
+      margin: 20px;
+      cursor: pointer;
+      margin-top: 6vh;
+      margin-left: 16vw;
+     }
+
+     .slope:hover {
+      border-color: purple;
+      box-shadow: 5px 5px purple;
+     }
+
+     .mario {
+      background-color: rgb(21, 20, 20);
+      background-image: url('Mario.gif');
+      background-size: 75px;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 150px;
+      width: 160px;
+      font-size: 21px;
+      color: white; 
+      font-weight: bold;
+      padding-top: 120px;
+      border-style: ridge;
+      border-radius: 15px;
+      margin: 20px;
+      cursor: pointer;
+      margin-top: 6vh;
+     }
+
+     .mario:hover {
+      border-color: purple;
+      box-shadow: 5px 5px purple;
+     }
+
+     .super-mario {
+      background-color: rgb(21, 20, 20);
+      background-image: url('super\ mario.png');
+      background-size: 110px;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 150px;
+      width: 160px;
+      font-size: 20px;
+      color: white; 
+      font-weight: bold;
+      padding-top: 120px;
+      border-style: ridge;
+      border-radius: 15px;
+      margin: 20px;
+      cursor: pointer;
+      margin-top: 6vh;
+      white-space: nowrap;
+     }
+
+     .super-mario:hover {
+      border-color: purple;
+      box-shadow: 5px 5px purple;
+     }
+
+     .tunnel-rush {
+      background-color: rgb(21, 20, 20);
+      background-image: url('tunnel\ rush.jpg');
+      background-size: 95px;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 150px;
+      width: 160px;
+      font-size: 20px;
+      color: white; 
+      font-weight: bold;
+      padding-top: 120px;
+      border-style: ridge;
+      border-radius: 15px;
+      margin: 20px;
+      cursor: pointer;
+      margin-top: 6vh;
+     }
+
+     .tunnel-rush:hover {
+      border-color: purple;
+      box-shadow: 5px 5px purple;
+     }
+
+     .temple-run2 {
+      background-color: rgb(21, 20, 20);
+      background-image: url('temple\ run2.png');
+      background-size: 95px;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 150px;
+      width: 160px;
+      font-size: 20px;
+      color: white; 
+      font-weight: bold;
+      padding-top: 120px;
+      border-style: ridge;
+      border-radius: 15px;
+      margin: 20px;
+      cursor: pointer;
+      margin-top: 6vh;
+     }
+
+     .temple-run2:hover {
+      border-color: purple;
+      box-shadow: 5px 5px purple;
+     }
+
+     .puzzel {
+      background-color: rgb(21, 20, 20);
+      background-image: url('2048.png');
+      background-size: 95px;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 150px;
+      width: 160px;
+      font-size: 20px;
+      color: white; 
+      font-weight: bold;
+      padding-top: 120px;
+      border-style: ridge;
+      border-radius: 15px;
+      margin: 20px;
+      cursor: pointer;
+      margin-top: 6vh;
+      margin-left: 16vw;
+     }
+
+     .puzzel:hover {
+      border-color: purple;
+      box-shadow: 5px 5px purple;
+     }
+
+     .minecraft-classic {
+      background-color: rgb(21, 20, 20);
+      background-image: url('minecraft\ classic.png');
+      background-size: 95px;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 150px;
+      width: 160px;
+      font-size: 18.5px;
+      color: white; 
+      font-weight: bold;
+      padding-top: 120px;
+      border-style: ridge;
+      border-radius: 15px;
+      margin: 20px;
+      cursor: pointer;
+      margin-top: 6vh;
+      white-space: nowrap;
+     }
+
+     .minecraft-classic:hover {
+      border-color: purple;
+      box-shadow: 5px 5px purple;
+     }
+
+     .basket-random {
+      background-color: rgb(21, 20, 20);
+      background-image: url('basket\ random.jpg');
+      background-size: 95px;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 150px;
+      width: 160px;
+      font-size: 20px;
+      color: white; 
+      font-weight: bold;
+      padding-top: 120px;
+      border-style: ridge;
+      border-radius: 15px;
+      margin: 20px;
+      cursor: pointer;
+      margin-top: 6vh;
+     }
+
+     .basket-random:hover {
+      border-color: purple;
+      box-shadow: 5px 5px purple;
+     }
+
+     .soccer-random {
+      background-color: rgb(21, 20, 20);
+      background-image: url('soccer\ random.jpg');
+      background-size: 95px;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 150px;
+      width: 160px;
+      font-size: 20px;
+      color: white; 
+      font-weight: bold;
+      padding-top: 120px;
+      border-style: ridge;
+      border-radius: 15px;
+      margin: 20px;
+      cursor: pointer;
+      margin-top: 6vh;
+     }
+
+     .soccer-random:hover {
+      border-color: purple;
+      box-shadow: 5px 5px purple;
+     }
+
+     .boxing-random {
+      background-color: rgb(21, 20, 20);
+      background-image: url('boxing\ random.jpg');
+      background-size: 95px;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 150px;
+      width: 160px;
+      font-size: 20px;
+      color: white; 
+      font-weight: bold;
+      padding-top: 120px;
+      border-style: ridge;
+      border-radius: 15px;
+      margin: 20px;
+      cursor: pointer;
+      margin-top: 6vh;
+     }
+
+     .boxing-random:hover {
+      border-color: purple;
+      box-shadow: 5px 5px purple;
+     }
+
+     .lolshot {
+      background-color: rgb(21, 20, 20);
+      background-image: url('lolshot.jpg');
+      background-size: 95px;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 150px;
+      width: 160px;
+      font-size: 20px;
+      color: white; 
+      font-weight: bold;
+      padding-top: 120px;
+      border-style: ridge;
+      border-radius: 15px;
+      margin: 20px;
+      cursor: pointer;
+      margin-top: 6vh;
+      margin-left: 16vw;
+     }
+
+     .lolshot:hover {
+      border-color: purple;
+      box-shadow: 5px 5px purple;
+     }
+
+     .death-run3D {
+      background-color: rgb(21, 20, 20);
+      background-image: url('death\ run3D.png');
+      background-size: 95px;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 150px;
+      width: 160px;
+      font-size: 21px;
+      color: white; 
+      font-weight: bold;
+      padding-top: 120px;
+      border-style: ridge;
+      border-radius: 15px;
+      margin: 20px;
+      cursor: pointer;
+      margin-top: 6vh;
+     }
+
+     .death-run3D:hover {
+      border-color: purple;
+      box-shadow: 5px 5px purple;
+     }
+
+     .infinite-craft {
+      background-color: rgb(21, 20, 20);
+      background-image: url('infintie\ craft.png');
+      background-size: 95px;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 150px;
+      width: 160px;
+      font-size: 21px;
+      color: white; 
+      font-weight: bold;
+      padding-top: 120px;
+      border-style: ridge;
+      border-radius: 15px;
+      margin: 20px;
+      cursor: pointer;
+      margin-top: 6vh;
+     }
+
+     .infinite-craft:hover {
+      border-color: purple;
+      box-shadow: 5px 5px purple;
+     }
+
+     .flappy-bird {
+      background-color: rgb(21, 20, 20);
+      background-image: url('flappy\ bird.png');
+      background-size: 95px;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 150px;
+      width: 160px;
+      font-size: 21px;
+      color: white; 
+      font-weight: bold;
+      padding-top: 120px;
+      border-style: ridge;
+      border-radius: 15px;
+      margin: 20px;
+      cursor: pointer;
+      margin-top: 6vh;
+     }
+
+     .flappy-bird:hover {
+      border-color: purple;
+      box-shadow: 5px 5px purple;
+     }
+
+     .worlds-hardest-game {
+      background-color: rgb(21, 20, 20);
+      background-image: url('worlds\ hardest\ game.jpg');
+      background-size: 95px;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 150px;
+      width: 160px;
+      font-size: 21px;
+      color: white; 
+      font-weight: bold;
+      padding-top: 120px;
+      border-style: ridge;
+      border-radius: 15px;
+      margin: 20px;
+      cursor: pointer;
+      margin-top: 6vh;
+     }
+
+     .worlds-hardest-game:hover {
+      border-color: purple;
+      box-shadow: 5px 5px purple;
+     }
+
+     .WHG2 {
+      background-color: rgb(21, 20, 20);
+      background-image: url('worlds-hardest-game-2.jpg');
+      background-size: 95px;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 150px;
+      width: 160px;
+      font-size: 21px;
+      color: white; 
+      font-weight: bold;
+      padding-top: 120px;
+      border-style: ridge;
+      border-radius: 15px;
+      margin: 20px;
+      cursor: pointer;
+      margin-top: 6vh;
+      margin-left: 16vw;
+     }
+
+     .WHG2:hover {
+      border-color: purple;
+      box-shadow: 5px 5px purple;
+     }
+
