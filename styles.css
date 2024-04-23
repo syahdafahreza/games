@@ -1,6 +1,6 @@
-body {
+ body {
    background-color: rgb(21, 20, 20);
-}
+ }
 
 h1 {
     color: white;
@@ -927,6 +927,30 @@ h1 {
      }
 
      .smash-karts:hover {
+      border-color: purple;
+      box-shadow: 5px 5px purple;
+     }
+
+     .snow-rider {
+      background-color: rgb(21, 20, 20);
+      background-image: url('snow\ rider\ 3D.jpg');
+      background-size: 100px;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 150px;
+      width: 160px;
+      font-size: 21px;
+      color: white; 
+      font-weight: bold;
+      padding-top: 120px;
+      border-style: ridge;
+      border-radius: 15px;
+      margin: 20px;
+      cursor: pointer;
+      margin-top: 6vh;
+     }
+
+     .snow-rider:hover {
       border-color: purple;
       box-shadow: 5px 5px purple;
      }
