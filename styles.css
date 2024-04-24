@@ -52,6 +52,8 @@ h1 {
          margin-top: 0px;
          margin-bottom: 0px;
          font-size: 20px;
+         margin: 2.5px;
+         margin-right: 5px;
     }
 
     .Games:hover {
@@ -69,7 +71,10 @@ h1 {
         background-color: black;
         background-position: center;
         font-size: 20px;
-        color: white
+        color: white;
+        margin: 2.5px;
+        margin-top: 0px;
+        margin-bottom: 0px;
     }
 
     .Apps:hover {
@@ -85,11 +90,12 @@ h1 {
         border: none;
         background-color: black;
         color: white; 
-         float: top; 
-         float: right;
-         margin-top: 0px;
-         margin-bottom: 0px;
-         font-size: 16px;
+        float: top; 
+        float: right;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-size: 20px;
+        margin: 2.5px;
      }
 
      .home:hover {
@@ -108,11 +114,53 @@ h1 {
          float: left;
          margin-top: 0px;
          margin-bottom: 0px;
-         font-size: 16px;
+         font-size: 20px;
      }
 
      .about-blank:hover {
         background-color: rgb(6, 184, 255);
+     }
+
+     .shooter {
+      float: top;
+      float: right;
+      border: none;
+      width: 90px; 
+      height: 30px;
+      border-radius: 36px;
+      cursor: pointer;
+      background-color: black;
+      background-position: center;
+      font-size: 20px;
+      color: white;
+      margin-top: 0px;
+      margin: 2.5px;
+      margin-bottom: 0px;
+     }
+
+     .shooter:hover {
+      background-color: rgb(6, 184, 255);
+     }
+
+     .sports {
+      float: top;
+      float: right;
+      border: none;
+      width: 90px; 
+      height: 30px;
+      border-radius: 36px;
+      cursor: pointer;
+      background-color: black;
+      background-position: center;
+      font-size: 20px;
+      color: white;
+      margin-top: 0px;
+      margin: 2.5px;
+      margin-bottom: 0px;
+     }
+
+     .sports:hover {
+      background-color: rgb(6, 184, 255);
      }
 
      .eaglercraft {
@@ -140,89 +188,24 @@ h1 {
         box-shadow: 5px 5px purple;
      }
 
-.topnav {
-    overflow: hidden;
-    background-color: black;
-     top: 0px;
-     right: 0px;
-    width: 100vw;
-    height: 5vh;
-  position: absolute;
- }
-
- .Games {
-    width:  90px; 
-    height: 30px;
-    border-radius: 42px;
-    cursor: pointer; 
-    border: none;
-    background-color: black;
-    color: white; 
-     float: top; 
-     float: right;
-     margin-top: 0px;
-     margin-bottom: 0px;
-     font-size: 20px;
-}
-
-.Games:hover {
-    background-color: rgb(6, 184, 255);
-}
-
-    .Apps {
-        float: top;
-        float: right;
-        border: none;
-        width: 90px; 
-        height: 30px;
-        border-radius: 36px;
-        cursor: pointer;
-        background-color: black;
+     .retro-bowl2 {
+      background-color: rgb(21, 20, 20);
+        background-image: url('retro\ bowl.jpg');
+        background-size: 100px;
+        background-repeat: no-repeat;
         background-position: center;
-        font-size: 20px;
-        color: white
-    }
-
-    .Apps:hover {
-      background-color: rgb(6, 184, 255);
-    }
-
-    .home {
-        width:  90px; 
-        height: 30px;
-        border-radius: 42px;
-        cursor: pointer; 
-        border: none;
-        background-color: black;
+        height: 150px;
+        width: 160px;
+        font-size: 21px;
         color: white; 
-         float: top; 
-         float: right;
-         margin-top: 0px;
-         margin-bottom: 0px;
-         font-size: 20px;
-     }
-
-     .home:hover {
-     background-color: rgb(6, 184, 255);
-     }
-     
-     .about-blank {
-        width:  112px; 
-        height: 30px;
-        border-radius: 42px;
-        cursor: pointer; 
-        border: none;
-        background-color: black;
-        color: white; 
-         float: top; 
-         float: left;
-         margin-top: 0px;
-         margin-bottom: 0px;
-         font-size: 20px;
-     }
-
-     .about-blank:hover {
-        background-color: rgb(6, 184, 255);
+        font-weight: bold;
+        padding-top: 120px;
+        border-style: ridge;
+        border-radius: 15px;
+        margin: 20px;
+        cursor: pointer;
+        margin-top: 6vh;
+        margin-left: 46vh;
      }
 
      .retro-bowl {
@@ -347,6 +330,55 @@ h1 {
       box-shadow: 5px 5px purple;
      }
 
+     .lol2 {
+      background-color: rgb(21, 20, 20);
+      background-image: url('1v1\ lol.png');
+      background-size: 100px;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 150px;
+      width: 160px;
+      font-size: 21px;
+      color: white; 
+      font-weight: bold;
+      padding-top: 120px;
+      border-style: ridge;
+      border-radius: 15px;
+      margin: 20px;
+      cursor: pointer;
+      margin-top: 6vh;
+      margin-left: 46vh;
+     }
+
+     .lol2:hover {
+      border-color: purple;
+      box-shadow: 5px 5px purple;
+     }
+
+     .ev-io2 {
+      background-color: rgb(21, 20, 20);
+      background-image: url('ev\ io.jpg');
+      background-size: 100px;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 150px;
+      width: 160px;
+      font-size: 21px;
+      color: white; 
+      font-weight: bold;
+      padding-top: 120px;
+      border-style: ridge;
+      border-radius: 15px;
+      margin: 20px;
+      cursor: pointer;
+      margin-top: 6vh;
+     }
+
+     .ev-io2:hover {
+      border-color: purple;
+      box-shadow: 5px 5px purple;
+     }
+
      .ev-io {
       background-color: rgb(21, 20, 20);
       background-image: url('ev\ io.jpg');
@@ -368,6 +400,30 @@ h1 {
      }
 
      .ev-io:hover {
+      border-color: purple;
+      box-shadow: 5px 5px purple;
+     }
+
+     .deadshot2 {
+      background-color: rgb(21, 20, 20);
+      background-image: url('deadshot.jpg');
+      background-size: 100px;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 150px;
+      width: 160px;
+      font-size: 21px;
+      color: white; 
+      font-weight: bold;
+      padding-top: 120px;
+      border-style: ridge;
+      border-radius: 15px;
+      margin: 20px;
+      cursor: pointer;
+      margin-top: 6vh;
+     }
+
+     .deadshot2:hover {
       border-color: purple;
       box-shadow: 5px 5px purple;
      }
@@ -1072,6 +1128,30 @@ h1 {
      }
 
      .spidey-swing:hover {
+      border-color: purple;
+      box-shadow: 5px 5px purple;
+     }
+
+     .venge {
+      background-color: rgb(21, 20, 20);
+      background-image: url('venge.jpg');
+      background-size: 100px;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 150px;
+      width: 160px;
+      font-size: 21px;
+      color: white; 
+      font-weight: bold;
+      padding-top: 120px;
+      border-style: ridge;
+      border-radius: 15px;
+      margin: 20px;
+      cursor: pointer;
+      margin-top: 6vh;
+     }
+
+     .venge:hover {
       border-color: purple;
       box-shadow: 5px 5px purple;
      }
