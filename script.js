@@ -11,3 +11,5 @@ stl.left = stl.right = stl.top = stl.bottom = '0';
 iframe.src = self.location;
 tab.document.body.appendChild(iframe);
 }
+
+

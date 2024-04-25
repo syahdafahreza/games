@@ -163,6 +163,27 @@ h1 {
       background-color: rgb(6, 184, 255);
      }
 
+     .cars {
+      float: top;
+      float: right;
+      border: none;
+      width: 90px; 
+      height: 30px;
+      border-radius: 36px;
+      cursor: pointer;
+      background-color: black;
+      background-position: center;
+      font-size: 20px;
+      color: white;
+      margin-top: 0px;
+      margin: 2.5px;
+      margin-bottom: 0px;
+     }
+
+     .cars:hover {
+      background-color: rgb(6, 184, 255);
+     }
+
      .eaglercraft {
         background-color: rgb(32, 29, 29);
         background-image: url('eaglercraft.png');
@@ -177,7 +198,7 @@ h1 {
         height: 150px;
         border-style: ridge;
         border-radius: 15px;
-        margin-top: 6vh;
+        margin-top: 15vh;
         margin: 20px;
         cursor: pointer;
         margin-left: 46vh;
