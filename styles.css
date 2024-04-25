@@ -278,6 +278,7 @@ h1 {
       box-shadow: 5px 5px purple;
      }
 
+
      .eggy-car2 {
       background-color: rgb(21, 20, 20);
       background-image: url('eggy\ car.jpg');
@@ -1193,6 +1194,30 @@ h1 {
      }
 
      .venge:hover {
+      border-color: purple;
+      box-shadow: 5px 5px purple;
+     }
+
+     .krunker {
+      background-color: rgb(21, 20, 20);
+      background-image: url('krunker.png');
+      background-size: 100px;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 150px;
+      width: 160px;
+      font-size: 21px;
+      color: white; 
+      font-weight: bold;
+      padding-top: 120px;
+      border-style: ridge;
+      border-radius: 15px;
+      margin: 20px;
+      cursor: pointer;
+      margin-top: 6vh;
+     }
+
+     .krunker:hover {
       border-color: purple;
       box-shadow: 5px 5px purple;
      }
