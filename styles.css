@@ -986,4 +986,42 @@ h1 {
       margin-top: 6vh;
      }
 
-     
+     .csgo {
+      background-color: rgb(21, 20, 20);
+      background-image: url('csgo\ clicker.png');
+      background-size: 130px;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 150px;
+      width: 160px;
+      font-size: 21px;
+      color: white; 
+      font-weight: bold;
+      padding-top: 120px;
+      border-style: ridge;
+      border-radius: 15px;
+      margin: 20px;
+      cursor: pointer;
+      margin-top: 6vh;
+     }
+
+     .idle {
+      background-color: rgb(21, 20, 20);
+      background-image: url('idle\ breakout.png');
+      background-size: 100px;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 150px;
+      width: 160px;
+      font-size: 21px;
+      color: white; 
+      font-weight: bold;
+      padding-top: 120px;
+      border-style: ridge;
+      border-radius: 15px;
+      margin: 20px;
+      cursor: pointer;
+      margin-top: 6vh;
+     }
+
+
