@@ -184,6 +184,11 @@ h1 {
       background-color: rgb(6, 184, 255);
      }
 
+     .centered {
+      text-align: center;
+      margin: 0 auto;
+     }
+
      .eaglercraft {
         background-color: rgb(32, 29, 29);
         background-image: url('eaglercraft.png');
@@ -198,10 +203,9 @@ h1 {
         height: 150px;
         border-style: ridge;
         border-radius: 15px;
-        margin-top: 15vh;
+        margin-top: 6vh;
         margin: 20px;
         cursor: pointer;
-        margin-left: 46vh;
      }
 
      .eaglercraft:hover {
@@ -270,33 +274,11 @@ h1 {
       border-style: ridge;
       border-radius: 15px;
       cursor: pointer;
-      margin-left: 46vh;
      }
 
      .bing:hover {
       border-color: purple;
       box-shadow: 5px 5px purple;
-     }
-
-
-     .eggy-car2 {
-      background-color: rgb(21, 20, 20);
-      background-image: url('eggy\ car.jpg');
-      background-size: 120px;
-      background-repeat: no-repeat;
-      background-position: center;
-      height: 150px;
-      width: 160px;
-      font-size: 21px;
-      color: white; 
-      font-weight: bold;
-      padding-top: 120px;
-      border-style: ridge;
-      border-radius: 15px;
-      margin: 20px;
-      cursor: pointer;
-      margin-top: 6vh;
-      margin-left: 46vh;
      }
 
      .eggy-car {
@@ -315,8 +297,6 @@ h1 {
       border-radius: 15px;
       margin: 20px;
       cursor: pointer;
-      margin-top: 6vh;
-
      }
 
      .eggy-car:hover {
@@ -364,59 +344,9 @@ h1 {
       border-radius: 15px;
       margin: 20px;
       cursor: pointer;
-      margin-top: 6vh;
      }
 
      .lol:hover {
-      border-color: purple;
-      box-shadow: 5px 5px purple;
-     }
-
-     .lol2 {
-      background-color: rgb(21, 20, 20);
-      background-image: url('1v1\ lol.png');
-      background-size: 100px;
-      background-repeat: no-repeat;
-      background-position: center;
-      height: 150px;
-      width: 160px;
-      font-size: 21px;
-      color: white; 
-      font-weight: bold;
-      padding-top: 120px;
-      border-style: ridge;
-      border-radius: 15px;
-      margin: 20px;
-      cursor: pointer;
-      margin-top: 6vh;
-      margin-left: 46vh;
-     }
-
-     .lol2:hover {
-      border-color: purple;
-      box-shadow: 5px 5px purple;
-     }
-
-     .ev-io2 {
-      background-color: rgb(21, 20, 20);
-      background-image: url('ev\ io.jpg');
-      background-size: 100px;
-      background-repeat: no-repeat;
-      background-position: center;
-      height: 150px;
-      width: 160px;
-      font-size: 21px;
-      color: white; 
-      font-weight: bold;
-      padding-top: 120px;
-      border-style: ridge;
-      border-radius: 15px;
-      margin: 20px;
-      cursor: pointer;
-      margin-top: 6vh;
-     }
-
-     .ev-io2:hover {
       border-color: purple;
       box-shadow: 5px 5px purple;
      }
@@ -438,34 +368,10 @@ h1 {
       margin: 20px;
       cursor: pointer;
       margin-top: 6vh;
-      margin-left: 46vh;
+     
      }
 
      .ev-io:hover {
-      border-color: purple;
-      box-shadow: 5px 5px purple;
-     }
-
-     .deadshot2 {
-      background-color: rgb(21, 20, 20);
-      background-image: url('deadshot.jpg');
-      background-size: 100px;
-      background-repeat: no-repeat;
-      background-position: center;
-      height: 150px;
-      width: 160px;
-      font-size: 21px;
-      color: white; 
-      font-weight: bold;
-      padding-top: 120px;
-      border-style: ridge;
-      border-radius: 15px;
-      margin: 20px;
-      cursor: pointer;
-      margin-top: 6vh;
-     }
-
-     .deadshot2:hover {
       border-color: purple;
       box-shadow: 5px 5px purple;
      }
@@ -584,7 +490,6 @@ h1 {
       margin: 20px;
       cursor: pointer;
       margin-top: 6vh;
-      margin-left: 46vh;
      }
 
      .slope:hover {
@@ -706,7 +611,6 @@ h1 {
       margin: 20px;
       cursor: pointer;
       margin-top: 6vh;
-      margin-left: 46vh;
      }
 
      .puzzel:hover {
@@ -924,7 +828,6 @@ h1 {
       margin: 20px;
       cursor: pointer;
       margin-top: 6vh;
-      margin-left: 46vh;
      }
 
      .worlds-hardest-game:hover {
@@ -973,7 +876,6 @@ h1 {
       margin: 20px;
       cursor: pointer;
       margin-top: 6vh;
-      margin-left: 46vh;
      }
 
      .volly-random:hover {
@@ -1118,7 +1020,6 @@ h1 {
       margin: 20px;
       cursor: pointer;
       margin-top: 6vh;
-      margin-left: 46vh;
      }
 
      .deadshot:hover {
