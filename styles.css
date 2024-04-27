@@ -58,6 +58,7 @@ h1 {
 
     .Games:hover {
       background-color: rgb(6, 184, 255);
+      box-shadow: 0.1px 0.1px black;
     }
 
     .Apps {
@@ -79,6 +80,7 @@ h1 {
 
     .Apps:hover {
         background-color: rgb(6, 184, 255);
+        box-shadow: 0.1px 0.1px black;
       }
 
       
@@ -100,6 +102,7 @@ h1 {
 
      .home:hover {
      background-color: rgb(6, 184, 255);
+     box-shadow: 0.1px 0.1px black;
      }
 
      .about-blank {
@@ -119,6 +122,7 @@ h1 {
 
      .about-blank:hover {
         background-color: rgb(6, 184, 255);
+        box-shadow: 0.1px 0.1px black;
      }
 
      .shooter {
@@ -140,6 +144,7 @@ h1 {
 
      .shooter:hover {
       background-color: rgb(6, 184, 255);
+      box-shadow: 0.1px 0.1px black;
      }
 
      .sports {
@@ -161,6 +166,7 @@ h1 {
 
      .sports:hover {
       background-color: rgb(6, 184, 255);
+      box-shadow: 0.1px 0.1px black;
      }
 
      .cars {
@@ -182,6 +188,10 @@ h1 {
 
      .cars:hover {
       background-color: rgb(6, 184, 255);
+     }
+
+     .cars:hover {
+      box-shadow: 0.1px 0.1px black;
      }
 
      .centered {
@@ -208,31 +218,6 @@ h1 {
         cursor: pointer;
      }
 
-     .eaglercraft:hover {
-        border-color: purple;
-        box-shadow: 5px 5px purple;
-     }
-
-     .retro-bowl2 {
-      background-color: rgb(21, 20, 20);
-        background-image: url('retro\ bowl.jpg');
-        background-size: 100px;
-        background-repeat: no-repeat;
-        background-position: center;
-        height: 150px;
-        width: 160px;
-        font-size: 21px;
-        color: white; 
-        font-weight: bold;
-        padding-top: 120px;
-        border-style: ridge;
-        border-radius: 15px;
-        margin: 20px;
-        cursor: pointer;
-        margin-top: 6vh;
-        margin-left: 46vh;
-     }
-
      .retro-bowl {
         background-color: rgb(21, 20, 20);
         background-image: url('retro\ bowl.jpg');
@@ -250,11 +235,6 @@ h1 {
         margin: 20px;
         cursor: pointer;
         margin-top: 6vh;
-     }
-
-     .retro-bowl:hover {
-        border-color: purple;
-        box-shadow: 5px 5px purple;
      }
 
      .bing {
@@ -276,11 +256,6 @@ h1 {
       cursor: pointer;
      }
 
-     .bing:hover {
-      border-color: purple;
-      box-shadow: 5px 5px purple;
-     }
-
      .eggy-car {
       background-color: rgb(21, 20, 20);
       background-image: url('eggy\ car.jpg');
@@ -297,11 +272,6 @@ h1 {
       border-radius: 15px;
       margin: 20px;
       cursor: pointer;
-     }
-
-     .eggy-car:hover {
-      border-color: purple;
-      box-shadow: 5px 5px purple;
      }
 
      .among-us {
@@ -322,12 +292,7 @@ h1 {
       cursor: pointer;
       margin-top: 6vh;
      }
-
-     .among-us:hover {
-      border-color: purple;
-      box-shadow: 5px 5px purple;
-     }
-
+      
      .lol {
       background-color: rgb(21, 20, 20);
       background-image: url('1v1\ lol.png');
@@ -344,11 +309,6 @@ h1 {
       border-radius: 15px;
       margin: 20px;
       cursor: pointer;
-     }
-
-     .lol:hover {
-      border-color: purple;
-      box-shadow: 5px 5px purple;
      }
 
      .ev-io {
@@ -368,12 +328,6 @@ h1 {
       margin: 20px;
       cursor: pointer;
       margin-top: 6vh;
-     
-     }
-
-     .ev-io:hover {
-      border-color: purple;
-      box-shadow: 5px 5px purple;
      }
 
      .cookie-clicker {
@@ -393,11 +347,6 @@ h1 {
       margin: 20px;
       cursor: pointer;
       margin-top: 6vh;
-     }
-
-     .cookie-clicker:hover {
-      border-color: purple;
-      box-shadow: 5px 5px purple;
      }
 
      .basketball-stars {
@@ -420,11 +369,6 @@ h1 {
       white-space: nowrap;
      }
 
-     .basketball-stars:hover {
-      border-color: purple;
-      box-shadow: 5px 5px purple;
-     }
-
      .drift-boss {
       background-color: rgb(21, 20, 20);
       background-image: url('drift\ boss.png');
@@ -442,11 +386,6 @@ h1 {
       margin: 20px;
       cursor: pointer;
       margin-top: 6vh;
-     }
-
-     .drift-boss:hover {
-      border-color: purple;
-      box-shadow: 5px 5px purple;
      }
 
      .Bitlife {
@@ -468,11 +407,6 @@ h1 {
       margin-top: 6vh;
      }
 
-     .Bitlife:hover {
-      border-color: purple;
-      box-shadow: 5px 5px purple;
-     }
-
      .slope {
       background-color: rgb(21, 20, 20);
       background-image: url('slope.jpg');
@@ -492,11 +426,6 @@ h1 {
       margin-top: 6vh;
      }
 
-     .slope:hover {
-      border-color: purple;
-      box-shadow: 5px 5px purple;
-     }
-
      .mario {
       background-color: rgb(21, 20, 20);
       background-image: url('Mario.gif');
@@ -514,11 +443,6 @@ h1 {
       margin: 20px;
       cursor: pointer;
       margin-top: 6vh;
-     }
-
-     .mario:hover {
-      border-color: purple;
-      box-shadow: 5px 5px purple;
      }
 
      .super-mario {
@@ -541,11 +465,6 @@ h1 {
       white-space: nowrap;
      }
 
-     .super-mario:hover {
-      border-color: purple;
-      box-shadow: 5px 5px purple;
-     }
-
      .tunnel-rush {
       background-color: rgb(21, 20, 20);
       background-image: url('tunnel\ rush.jpg');
@@ -563,11 +482,6 @@ h1 {
       margin: 20px;
       cursor: pointer;
       margin-top: 6vh;
-     }
-
-     .tunnel-rush:hover {
-      border-color: purple;
-      box-shadow: 5px 5px purple;
      }
 
      .temple-run2 {
@@ -589,11 +503,6 @@ h1 {
       margin-top: 6vh;
      }
 
-     .temple-run2:hover {
-      border-color: purple;
-      box-shadow: 5px 5px purple;
-     }
-
      .puzzel {
       background-color: rgb(21, 20, 20);
       background-image: url('2048.png');
@@ -611,11 +520,6 @@ h1 {
       margin: 20px;
       cursor: pointer;
       margin-top: 6vh;
-     }
-
-     .puzzel:hover {
-      border-color: purple;
-      box-shadow: 5px 5px purple;
      }
 
      .minecraft-classic {
@@ -638,11 +542,6 @@ h1 {
       white-space: nowrap;
      }
 
-     .minecraft-classic:hover {
-      border-color: purple;
-      box-shadow: 5px 5px purple;
-     }
-
      .basket-random {
       background-color: rgb(21, 20, 20);
       background-image: url('basket\ random.jpg');
@@ -660,11 +559,6 @@ h1 {
       margin: 20px;
       cursor: pointer;
       margin-top: 6vh;
-     }
-
-     .basket-random:hover {
-      border-color: purple;
-      box-shadow: 5px 5px purple;
      }
 
      .soccer-random {
@@ -686,11 +580,6 @@ h1 {
       margin-top: 6vh;
      }
 
-     .soccer-random:hover {
-      border-color: purple;
-      box-shadow: 5px 5px purple;
-     }
-
      .boxing-random {
       background-color: rgb(21, 20, 20);
       background-image: url('boxing\ random.jpg');
@@ -708,11 +597,6 @@ h1 {
       margin: 20px;
       cursor: pointer;
       margin-top: 6vh;
-     }
-
-     .boxing-random:hover {
-      border-color: purple;
-      box-shadow: 5px 5px purple;
      }
 
      .lolshot {
@@ -734,11 +618,6 @@ h1 {
       margin-top: 6vh;
      }
 
-     .lolshot:hover {
-      border-color: purple;
-      box-shadow: 5px 5px purple;
-     }
-
      .death-run3D {
       background-color: rgb(21, 20, 20);
       background-image: url('death\ run3D.png');
@@ -756,11 +635,6 @@ h1 {
       margin: 20px;
       cursor: pointer;
       margin-top: 6vh;
-     }
-
-     .death-run3D:hover {
-      border-color: purple;
-      box-shadow: 5px 5px purple;
      }
 
      .infinite-craft {
@@ -782,11 +656,6 @@ h1 {
       margin-top: 6vh;
      }
 
-     .infinite-craft:hover {
-      border-color: purple;
-      box-shadow: 5px 5px purple;
-     }
-
      .flappy-bird {
       background-color: rgb(21, 20, 20);
       background-image: url('flappy\ bird.png');
@@ -804,11 +673,6 @@ h1 {
       margin: 20px;
       cursor: pointer;
       margin-top: 6vh;
-     }
-
-     .flappy-bird:hover {
-      border-color: purple;
-      box-shadow: 5px 5px purple;
      }
 
      .worlds-hardest-game {
@@ -830,11 +694,6 @@ h1 {
       margin-top: 6vh;
      }
 
-     .worlds-hardest-game:hover {
-      border-color: purple;
-      box-shadow: 5px 5px purple;
-     }
-
      .WHG2 {
       background-color: rgb(21, 20, 20);
       background-image: url('worlds\ hardest\ game\ 2.jpg');
@@ -852,11 +711,6 @@ h1 {
       margin: 20px;
       cursor: pointer;
       margin-top: 6vh;
-     }
-
-     .WHG2:hover {
-      border-color: purple;
-      box-shadow: 5px 5px purple;
      }
 
      .volly-random {
@@ -878,11 +732,6 @@ h1 {
       margin-top: 6vh;
      }
 
-     .volly-random:hover {
-      border-color: purple;
-      box-shadow: 5px 5px purple;
-     }
-
      .windows11 {
      background-color: rgb(21, 20, 20);
      background-image: url('windows11.jpg');
@@ -902,10 +751,6 @@ h1 {
      margin-top: 6vh;
      }   
 
-     .windows11:hover {
-      border-color: purple;
-      box-shadow: 5px 5px purple;
-     }
 
      .smash-karts {
       background-color: rgb(21, 20, 20);
@@ -924,11 +769,6 @@ h1 {
       margin: 20px;
       cursor: pointer;
       margin-top: 6vh;
-     }
-
-     .smash-karts:hover {
-      border-color: purple;
-      box-shadow: 5px 5px purple;
      }
 
      .snow-rider {
@@ -950,11 +790,6 @@ h1 {
       margin-top: 6vh;
      }
 
-     .snow-rider:hover {
-      border-color: purple;
-      box-shadow: 5px 5px purple;
-     }
-
      .backrooms {
       background-color: rgb(21, 20, 20);
       background-image: url('backrooms.jpg');
@@ -972,11 +807,6 @@ h1 {
       margin: 20px;
       cursor: pointer;
       margin-top: 6vh;
-     }
-
-     .backrooms:hover {
-      border-color: purple;
-      box-shadow: 5px 5px purple;
      }
 
      .neal-fun {
@@ -998,11 +828,6 @@ h1 {
       margin-top: 6vh;
      }
 
-     .neal-fun:hover {
-      border-color: purple;
-      box-shadow: 5px 5px purple;
-     }
-
      .deadshot {
       background-color: rgb(21, 20, 20);
       background-image: url('deadshot.jpg');
@@ -1020,11 +845,6 @@ h1 {
       margin: 20px;
       cursor: pointer;
       margin-top: 6vh;
-     }
-
-     .deadshot:hover {
-      border-color: purple;
-      box-shadow: 5px 5px purple;
      }
 
      .slow-roads {
@@ -1046,11 +866,6 @@ h1 {
       margin-top: 6vh;
      }
 
-     .slow-roads:hover {
-      border-color: purple;
-      box-shadow: 5px 5px purple;
-     }
-
      .spidey-swing {
       background-color: rgb(21, 20, 20);
       background-image: url('spidey\ swing.jpg');
@@ -1068,11 +883,6 @@ h1 {
       margin: 20px;
       cursor: pointer;
       margin-top: 6vh;
-     }
-
-     .spidey-swing:hover {
-      border-color: purple;
-      box-shadow: 5px 5px purple;
      }
 
      .venge {
@@ -1094,11 +904,6 @@ h1 {
       margin-top: 6vh;
      }
 
-     .venge:hover {
-      border-color: purple;
-      box-shadow: 5px 5px purple;
-     }
-
      .krunker {
       background-color: rgb(21, 20, 20);
       background-image: url('krunker.png');
@@ -1118,7 +923,65 @@ h1 {
       margin-top: 6vh;
      }
 
-     .krunker:hover {
+     .Run3 {
+      background-color: rgb(21, 20, 20);
+      background-image: url('run3.jpg');
+      background-size: 100px;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 150px;
+      width: 160px;
+      font-size: 21px;
+      color: white; 
+      font-weight: bold;
+      padding-top: 120px;
+      border-style: ridge;
+      border-radius: 15px;
+      margin: 20px;
+      cursor: pointer;
+      margin-top: 6vh;
+     }
+
+     button:hover {
       border-color: purple;
       box-shadow: 5px 5px purple;
+     }
+
+     .jeff-bazos {
+      background-color: rgb(21, 20, 20);
+      background-image: url('JEFF\ BAZOS.png');
+      background-size: 150px;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 150px;
+      width: 160px;
+      font-size: 17px;
+      color: white; 
+      font-weight: bold;
+      padding-top: 120px;
+      border-style: ridge;
+      border-radius: 15px;
+      margin: 20px;
+      cursor: pointer;
+      margin-top: 6vh;
+      white-space: nowrap;
+     }
+
+     .wordle {
+      background-color: rgb(21, 20, 20);
+      background-image: url('wordle.png');
+      background-size: 100px;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 150px;
+      width: 160px;
+      font-size: 21px;
+      color: white; 
+      font-weight: bold;
+      padding-top: 120px;
+      border-style: ridge;
+      border-radius: 15px;
+      margin: 20px;
+      cursor: pointer;
+      margin-top: 6vh;
      }
