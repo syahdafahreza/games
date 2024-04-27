@@ -38,6 +38,23 @@
 
       <iframe src="https://html5.gamedistribution.com/2d529603443d463eaf36c061b71f84ff/"></iframe>
 
+      <button 
+      onclick="iffs('https://html5.gamedistribution.com/2d529603443d463eaf36c061b71f84ff/')"
+       class="fullscreen"></button>
+      
+       <script>
+        function iffs(href) {
+      const iframe = document.querySelector("iframe");
+      const stl = iframe.style;
+      stl.border = stl.outline = 'none';
+      stl.width = '100vw';
+      stl.height = '100vh';
+      stl.position = 'fixed';
+      stl.left = stl.right = stl.top = stl.bottom = '0';
+      iframe.src = href;
+      }
+      </script>
+
     
 </body>
 </html>
