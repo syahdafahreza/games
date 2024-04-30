@@ -200,7 +200,7 @@ h1 {
      }
 
      .eaglercraft {
-        background-color: rgb(32, 29, 29);
+        background-color: rgb(21, 20, 20);
         background-image: url('eaglercraft.png');
         background-position: center; 
         background-repeat: no-repeat;
@@ -1110,6 +1110,52 @@ h1 {
       margin: 20px;
       cursor: pointer;
       margin-top: 6vh;
+     }
+
+     .bloons {
+      background-color: rgb(21, 20, 20);
+      background-image: url('bloonstd.jpg');
+      background-size: 100px;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 150px;
+      width: 160px;
+      font-size: 21px;
+      color: white; 
+      font-weight: bold;
+      padding-top: 120px;
+      border-style: ridge;
+      border-radius: 15px;
+      margin: 20px;
+      cursor: pointer;
+      margin-top: 6vh;
+     }
+
+     .paper {
+      background-color: rgb(21, 20, 20);
+      background-image: url('paper\ io.png');
+      background-size: 100px;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 150px;
+      width: 160px;
+      font-size: 21px;
+      color: white; 
+      font-weight: bold;
+      padding-top: 120px;
+      border-style: ridge;
+      border-radius: 15px;
+      margin: 20px;
+      cursor: pointer;
+      margin-top: 6vh;
+     }
+
+     p {
+      font-size: 50px;
+      color: white;
+      font-style: italic;
+      text-align: center;
+      margin-top: 50vh;
      }
 
 
