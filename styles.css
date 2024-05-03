@@ -1,5 +1,6 @@
  body {
    background-color: rgb(21, 20, 20);
+   filter: brightness(105%);
  }
 
 h1 {
