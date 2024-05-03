@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <link rel="shortcut icon" href="logo.jpg" type="image">
-    <title>Apps</title>
+    <link rel="shortcut icon" href="gartic phone.jpg" type="image">
+    <title>Gartic Phone | Alexx743</title>
 </head>
 <body>
-    
+
+    <h2>Gartic phone</h2>
+
     <div class="topnav">
         <a href="games.html">
         <button title="Games" id="Games" class="Games"> Games </button> 
@@ -21,33 +23,38 @@
       <a href="index.html">
         <button title="home" id="home" class="home">home</button>
       </a>
-      
+
       <a href="shooter.html">
         <button title="shooter" class="shooter">Shooter</button>
       </a>
-      
+
       <a href="sports.html">
         <button title="sports" class="sports">Sports</button>
       </a>
-      </div>
 
-      <div class="centered">
-      <a href="bing.html">
-      <button title="Google" class="bing">Bing Browser</button>
-      </a>
-
-      <a href="windows 11.html">
-        <button title="windows 11 in react" class="windows11">Windows11 in react</button>
-      </a>
-
-      <a href="neal.fun.html">
-        <button title="Neal.fun" class="neal-fun">Neal.fun</button>
-      </a>
-
-      <a href="gartic phone.html">
-        <button title="gartic phone" class="phone">Gartic Phone</button>
+      <a href="cars.html">
+        <button title="cars" class="cars">Cars</button>
       </a>
       </div>
 
+      <iframe src="https://garticphone.com"></iframe>
+
+      <button 
+      onclick="iffs('https://garticphone.com')"
+       class="fullscreen"></button>
+      
+       <script>
+        function iffs(href) {
+      const iframe = document.querySelector("iframe");
+      const stl = iframe.style;
+      stl.border = stl.outline = 'none';
+      stl.width = '100vw';
+      stl.height = '100vh';
+      stl.position = 'fixed';
+      stl.left = stl.right = stl.top = stl.bottom = '0';
+      iframe.src = href;
+      }
+      </script>
+    
 </body>
 </html>
