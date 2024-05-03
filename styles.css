@@ -1,6 +1,5 @@
  body {
    background-color: rgb(21, 20, 20);
-   filter: brightness(105%);
  }
 
 h1 {
@@ -38,6 +37,7 @@ h1 {
         width: 100vw;
         height: 5vh;
       position: absolute;
+      filter: brightness(110%);
      }
 
      .divbutton {
