@@ -1,5 +1,5 @@
  body {
-   background-color: rgb(21, 20, 20);
+   background-color: rgb(26, 25, 24);
  }
 
 h1 {
@@ -86,8 +86,22 @@ h1 {
       margin: 0 auto;
      }
 
+     input {
+      background-color: transparent;
+      width: 600px;
+      height: 35px;
+      border-style: ridge;
+      border-color: white;
+      font-size: 25px;
+      color: white;
+      font-weight: bold;
+     }
+
+     button {
+      background: transparent;
+     }
+
      .eaglercraft {
-        background-color: rgb(21, 20, 20);
         background-image: url('eaglercraft.png');
         background-position: center; 
         background-repeat: no-repeat;
@@ -106,7 +120,6 @@ h1 {
      }
 
      .retro-bowl {
-        background-color: rgb(21, 20, 20);
         background-image: url('retro\ bowl.jpg');
         background-size: 100px;
         background-repeat: no-repeat;
@@ -127,7 +140,6 @@ h1 {
      .bing {
       width: 160px;
       height: 150px;
-      background-color: rgb(21, 20, 20);
       background-image: url('bing.jpg');
       background-position: center;
       background-size: 100px;
@@ -144,7 +156,6 @@ h1 {
      }
 
      .eggy-car {
-      background-color: rgb(21, 20, 20);
       background-image: url('eggy\ car.jpg');
       background-size: 120px;
       background-repeat: no-repeat;
@@ -162,7 +173,6 @@ h1 {
      }
 
      .among-us {
-      background-color: rgb(21, 20, 20);
       background-image: url('among\ us.jpg');
       background-size: 98px;
       background-repeat: no-repeat;
@@ -181,7 +191,6 @@ h1 {
      }
       
      .lol {
-      background-color: rgb(21, 20, 20);
       background-image: url('1v1\ lol.png');
       background-size: 100px;
       background-repeat: no-repeat;
@@ -199,7 +208,6 @@ h1 {
      }
 
      .ev-io {
-      background-color: rgb(21, 20, 20);
       background-image: url('ev\ io.jpg');
       background-size: 100px;
       background-repeat: no-repeat;
@@ -218,7 +226,6 @@ h1 {
      }
 
      .cookie-clicker {
-      background-color: rgb(21, 20, 20);
       background-image: url('cookie.png');
       background-size: 100px;
       background-repeat: no-repeat;
@@ -237,7 +244,6 @@ h1 {
      }
 
      .basketball-stars {
-      background-color: rgb(21, 20, 20);
       background-image: url('basketball\ stars.jpg');
       background-size: 100px;
       background-repeat: no-repeat;
@@ -257,7 +263,6 @@ h1 {
      }
 
      .drift-boss {
-      background-color: rgb(21, 20, 20);
       background-image: url('drift\ boss.png');
       background-size: 95px;
       background-repeat: no-repeat;
@@ -276,7 +281,6 @@ h1 {
      }
 
      .Bitlife {
-      background-color: rgb(21, 20, 20);
       background-image: url('bitlife.jpg');
       background-size: 95px;
       background-repeat: no-repeat;
@@ -295,7 +299,6 @@ h1 {
      }
 
      .slope {
-      background-color: rgb(21, 20, 20);
       background-image: url('slope.jpg');
       background-size: 95px;
       background-repeat: no-repeat;
@@ -314,7 +317,6 @@ h1 {
      }
 
      .mario {
-      background-color: rgb(21, 20, 20);
       background-image: url('Mario.gif');
       background-size: 75px;
       background-repeat: no-repeat;
@@ -333,7 +335,6 @@ h1 {
      }
 
      .super-mario {
-      background-color: rgb(21, 20, 20);
       background-image: url('super\ mario.png');
       background-size: 110px;
       background-repeat: no-repeat;
@@ -353,7 +354,6 @@ h1 {
      }
 
      .tunnel-rush {
-      background-color: rgb(21, 20, 20);
       background-image: url('tunnel\ rush.jpg');
       background-size: 95px;
       background-repeat: no-repeat;
@@ -372,7 +372,6 @@ h1 {
      }
 
      .temple-run2 {
-      background-color: rgb(21, 20, 20);
       background-image: url('temple\ run2.png');
       background-size: 95px;
       background-repeat: no-repeat;
@@ -391,7 +390,6 @@ h1 {
      }
 
      .puzzel {
-      background-color: rgb(21, 20, 20);
       background-image: url('2048.png');
       background-size: 95px;
       background-repeat: no-repeat;
@@ -410,7 +408,6 @@ h1 {
      }
 
      .minecraft-classic {
-      background-color: rgb(21, 20, 20);
       background-image: url('minecraft\ classic.png');
       background-size: 95px;
       background-repeat: no-repeat;
@@ -430,7 +427,6 @@ h1 {
      }
 
      .basket-random {
-      background-color: rgb(21, 20, 20);
       background-image: url('basket\ random.jpg');
       background-size: 95px;
       background-repeat: no-repeat;
@@ -449,7 +445,6 @@ h1 {
      }
 
      .soccer-random {
-      background-color: rgb(21, 20, 20);
       background-image: url('soccer\ random.jpg');
       background-size: 95px;
       background-repeat: no-repeat;
@@ -468,7 +463,6 @@ h1 {
      }
 
      .boxing-random {
-      background-color: rgb(21, 20, 20);
       background-image: url('boxing\ random.jpg');
       background-size: 95px;
       background-repeat: no-repeat;
@@ -487,7 +481,6 @@ h1 {
      }
 
      .lolshot {
-      background-color: rgb(21, 20, 20);
       background-image: url('lolshot.jpg');
       background-size: 95px;
       background-repeat: no-repeat;
@@ -506,7 +499,6 @@ h1 {
      }
 
      .death-run3D {
-      background-color: rgb(21, 20, 20);
       background-image: url('death\ run3D.png');
       background-size: 95px;
       background-repeat: no-repeat;
@@ -525,7 +517,6 @@ h1 {
      }
 
      .infinite-craft {
-      background-color: rgb(21, 20, 20);
       background-image: url('infintie\ craft.png');
       background-size: 95px;
       background-repeat: no-repeat;
@@ -544,7 +535,6 @@ h1 {
      }
 
      .flappy-bird {
-      background-color: rgb(21, 20, 20);
       background-image: url('flappy\ bird.png');
       background-size: 95px;
       background-repeat: no-repeat;
@@ -563,7 +553,6 @@ h1 {
      }
 
      .worlds-hardest-game {
-      background-color: rgb(21, 20, 20);
       background-image: url('worlds\ hardest\ game.jpg');
       background-size: 95px;
       background-repeat: no-repeat;
@@ -582,7 +571,6 @@ h1 {
      }
 
      .WHG2 {
-      background-color: rgb(21, 20, 20);
       background-image: url('worlds\ hardest\ game\ 2.jpg');
       background-size: 95px;
       background-repeat: no-repeat;
@@ -601,7 +589,6 @@ h1 {
      }
 
      .volly-random {
-      background-color: rgb(21, 20, 20);
       background-image: url('volly\ random.jpg');
       background-size: 95px;
       background-repeat: no-repeat;
@@ -620,7 +607,6 @@ h1 {
      }
 
      .windows11 {
-     background-color: rgb(21, 20, 20);
      background-image: url('windows11.jpg');
      background-size: 90px;
      background-repeat: no-repeat;
@@ -640,7 +626,6 @@ h1 {
 
 
      .smash-karts {
-      background-color: rgb(21, 20, 20);
       background-image: url('smash\ karts.jpg');
       background-size: 110px;
       background-repeat: no-repeat;
@@ -659,7 +644,6 @@ h1 {
      }
 
      .snow-rider {
-      background-color: rgb(21, 20, 20);
       background-image: url('snow\ rider\ 3D.jpg');
       background-size: 100px;
       background-repeat: no-repeat;
@@ -678,7 +662,6 @@ h1 {
      }
 
      .backrooms {
-      background-color: rgb(21, 20, 20);
       background-image: url('backrooms.jpg');
       background-size: 100px;
       background-repeat: no-repeat;
@@ -697,7 +680,6 @@ h1 {
      }
 
      .neal-fun {
-      background-color: rgb(21, 20, 20);
       background-image: url('neal.fun.jpg');
       background-size: 100px;
       background-repeat: no-repeat;
@@ -716,7 +698,6 @@ h1 {
      }
 
      .deadshot {
-      background-color: rgb(21, 20, 20);
       background-image: url('deadshot.jpg');
       background-size: 95px;
       background-repeat: no-repeat;
@@ -735,7 +716,6 @@ h1 {
      }
 
      .slow-roads {
-      background-color: rgb(21, 20, 20);
       background-image: url('slow\ roads.jpg');
       background-size: 100px;
       background-repeat: no-repeat;
@@ -754,7 +734,6 @@ h1 {
      }
 
      .spidey-swing {
-      background-color: rgb(21, 20, 20);
       background-image: url('spidey\ swing.jpg');
       background-size: 100px;
       background-repeat: no-repeat;
@@ -773,7 +752,6 @@ h1 {
      }
 
      .venge {
-      background-color: rgb(21, 20, 20);
       background-image: url('venge.jpg');
       background-size: 100px;
       background-repeat: no-repeat;
@@ -792,7 +770,6 @@ h1 {
      }
 
      .krunker {
-      background-color: rgb(21, 20, 20);
       background-image: url('krunker.png');
       background-size: 100px;
       background-repeat: no-repeat;
@@ -811,7 +788,6 @@ h1 {
      }
 
      .Run3 {
-      background-color: rgb(21, 20, 20);
       background-image: url('run3.jpg');
       background-size: 100px;
       background-repeat: no-repeat;
@@ -835,7 +811,6 @@ h1 {
      }
 
      .jeff-bazos {
-      background-color: rgb(21, 20, 20);
       background-image: url('JEFF\ BAZOS.png');
       background-size: 150px;
       background-repeat: no-repeat;
@@ -855,7 +830,6 @@ h1 {
      }
 
      .wordle {
-      background-color: rgb(21, 20, 20);
       background-image: url('wordle.png');
       background-size: 100px;
       background-repeat: no-repeat;
@@ -874,7 +848,6 @@ h1 {
      }
 
      .csgo {
-      background-color: rgb(21, 20, 20);
       background-image: url('csgo\ clicker.png');
       background-size: 130px;
       background-repeat: no-repeat;
@@ -893,7 +866,6 @@ h1 {
      }
 
      .idle {
-      background-color: rgb(21, 20, 20);
       background-image: url('idle\ breakout.png');
       background-size: 100px;
       background-repeat: no-repeat;
@@ -912,7 +884,6 @@ h1 {
      }
 
      .santa {
-      background-color: rgb(21, 20, 20);
       background-image: url('santa\ tracker.png');
       background-size: 100px;
       background-repeat: no-repeat;
@@ -943,7 +914,6 @@ h1 {
      }
 
      .dino {
-      background-color: rgb(21, 20, 20);
       background-image: url('chrome\ dino.png');
       background-size: 100px;
       background-repeat: no-repeat;
@@ -962,7 +932,6 @@ h1 {
      }
 
      .monkey {
-      background-color: rgb(21, 20, 20);
       background-image: url('monkey\ mart.jpg');
       background-size: 100px;
       background-repeat: no-repeat;
@@ -981,7 +950,6 @@ h1 {
      }
 
      .crossy-road {
-      background-color: rgb(21, 20, 20);
       background-image: url('crossy\ road.jpg');
       background-size: 100px;
       background-repeat: no-repeat;
@@ -1000,7 +968,6 @@ h1 {
      }
 
      .bloons {
-      background-color: rgb(21, 20, 20);
       background-image: url('bloonstd.jpg');
       background-size: 100px;
       background-repeat: no-repeat;
@@ -1019,7 +986,6 @@ h1 {
      }
 
      .paper {
-      background-color: rgb(21, 20, 20);
       background-image: url('paper\ io.png');
       background-size: 100px;
       background-repeat: no-repeat;
@@ -1046,7 +1012,6 @@ h1 {
      }
 
      .shell {
-      background-color: rgb(21, 20, 20);
       background-image: url('shellshockers.jpg');
       background-size: 100px;
       background-repeat: no-repeat;
@@ -1065,7 +1030,6 @@ h1 {
      }
 
      .phone {
-      background-color: rgb(21, 20, 20);
       background-image: url('gartic\ phone.jpg');
       background-size: 100px;
       background-repeat: no-repeat;
