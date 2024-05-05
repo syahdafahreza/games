@@ -35,7 +35,7 @@ h1 {
       top: 0px;
       right: 0px;
       width: 100vw;
-      height: 5vh;
+      height: 5.5vh;
       position: absolute;
      }
 
@@ -83,17 +83,6 @@ h1 {
      .centered {
       text-align: center;
       margin: 0 auto;
-     }
-
-     input {
-      background-color: transparent;
-      width: 600px;
-      height: 35px;
-      border-style: ridge;
-      border-color: white;
-      font-size: 25px;
-      color: white;
-      font-weight: bold;
      }
 
      button {
