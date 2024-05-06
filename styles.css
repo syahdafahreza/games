@@ -1108,3 +1108,39 @@ h1 {
       cursor: pointer;
       margin-top: 6vh;
      }
+
+     .ninja {
+      background-image: url('Fruit\ Ninja.jpg');
+      background-size: 100px;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 150px;
+      width: 160px;
+      font-size: 21px;
+      color: white; 
+      font-weight: bold;
+      padding-top: 120px;
+      border-style: ridge;
+      border-radius: 15px;
+      margin: 20px;
+      cursor: pointer;
+      margin-top: 6vh;
+     }
+
+     .drive {
+      background-image: url('drive\ mad.jpg');
+      background-size: 100px;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 150px;
+      width: 160px;
+      font-size: 21px;
+      color: white; 
+      font-weight: bold;
+      padding-top: 120px;
+      border-style: ridge;
+      border-radius: 15px;
+      margin: 20px;
+      cursor: pointer;
+      margin-top: 6vh;
+     }
