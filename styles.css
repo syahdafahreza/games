@@ -997,7 +997,8 @@ h1 {
       color: white;
       font-style: italic;
       text-align: center;
-      margin-top: 50vh;
+      margin-top: 25vh;
+      margin-bottom: 0px;
      }
 
      .shell {
@@ -1025,7 +1026,7 @@ h1 {
       background-position: center;
       height: 150px;
       width: 160px;
-      font-size: 19px;
+      font-size: 21px;
       color: white; 
       font-weight: bold;
       padding-top: 120px;
@@ -1043,7 +1044,7 @@ h1 {
       background-position: center;
       height: 150px;
       width: 160px;
-      font-size: 19px;
+      font-size: 21px;
       color: white; 
       font-weight: bold;
       padding-top: 120px;
@@ -1061,7 +1062,43 @@ h1 {
       background-position: center;
       height: 150px;
       width: 160px;
-      font-size: 19px;
+      font-size: 21px;
+      color: white; 
+      font-weight: bold;
+      padding-top: 120px;
+      border-style: ridge;
+      border-radius: 15px;
+      margin: 20px;
+      cursor: pointer;
+      margin-top: 6vh;
+     }
+
+     .slope2 {
+      background-image: url('slope2.png');
+      background-size: 100px;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 150px;
+      width: 160px;
+      font-size: 21px;
+      color: white; 
+      font-weight: bold;
+      padding-top: 120px;
+      border-style: ridge;
+      border-radius: 15px;
+      margin: 20px;
+      cursor: pointer;
+      margin-top: 6vh;
+     }
+
+     .scrap {
+      background-image: url('scrap\ metal\ 3.png');
+      background-size: 100px;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 150px;
+      width: 160px;
+      font-size: 21px;
       color: white; 
       font-weight: bold;
       padding-top: 120px;
