@@ -23,9 +23,7 @@
       <a href="index.html">
         <button title="home" id="home" class="divbutton">home</button>
       </a>
-    
-    
-      
+
         <button title="about:blank" onclick="launchab()" id="about:blank" 
         class="about-blank">about:blank</button>
      
@@ -35,7 +33,7 @@
       <p>credits to damifidy 
         for helping with some of the code
       </p>
-    
+
       <script
         function launchab() {
         const tab = window.open('about:blank', '_blank');
@@ -52,5 +50,9 @@
       src="script.js"> </script>
         }
 
+        <script>
+          document.addEventListener("keydown", 
+          async (e) => { if ("`" == e.key) window.parent.window.location.replace("https://google.com/") });
+        </script>
         
     

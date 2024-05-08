@@ -34,6 +34,34 @@
     <button title="cars" class="divbutton">Cars</button>
   </a>
   </div>
+
+  <div class="search">
+    <input tpye="search" id="search" class="search-games" placeholder="search apps.." onchange="openpage()">
+    </div>
+
+    
+  <script>
+    function openpage() {
+      var open = document.getElementById('search').value;
+
+      if (open === "windows11") {
+        window.open("/windows 11.html", '_self')
+      }
+
+      if (open === "neal.fun") {
+        window.open("/neal.fun.html", '_self')
+      }
+
+      if (open === "bing") {
+        window.open("/bing.html")
+      } 
+
+      if (open === "gartic phone") {
+        window.open("/gartic phone.html")
+      }
+
+    }
+</script>
   
       <div class="centered">
       <a href="bing.html">
@@ -52,6 +80,14 @@
         <button title="gartic phone" class="phone">Gartic Phone</button>
       </a>
       </div>
+
+      <script>
+        document.addEventListener("keydown", 
+        async (e) => { if ("`" == e.key) window.parent.window.location.replace("https://google.com/") });
+      </script>
+
+
+    
 
 </body>
 </html>

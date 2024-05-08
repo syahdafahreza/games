@@ -35,6 +35,41 @@
   </a>
   </div>
 
+  <div class="search">
+    <input tpye="search" id="search" class="search-games" placeholder="search sport games.." 
+    onchange="openpage()">
+    </div>
+
+    <script>
+      function openpage() {
+        var open = document.getElementById('search').value;
+
+        if (open === "basket random") {
+        window.open("/basket random.html", '_self')
+        }
+
+        if (open === "basketball stars") {
+        window.open("/basketball stars.html", '_self')
+        }
+
+        if (open === "boxing random") {
+          window.open("/boxing random.html", '_self')
+        }
+
+        if (open === "soccer random") {
+          window.open("/soccer random.html", '_self')
+        }
+
+        if (open === "volly random") {
+          window.open("/volly random.html", '_self')
+        }
+
+        if (open === "retro bowl") {
+          window.open("/retro bowl.html", '_self')
+        }
+      }
+    </script>
+
       <div class="centered"> 
       <a href="retro bowl.html">
         <button title="retro bowl" class="retro-bowl">retro bowl</button>
@@ -62,6 +97,11 @@
         <button title="Volly random" class="volly-random">Volly random</button>
       </a>
       </div>
+
+      <script>
+        document.addEventListener("keydown", 
+        async (e) => { if ("`" == e.key) window.parent.window.location.replace("https://google.com/") });
+      </script>
 
 </body>
 </html>

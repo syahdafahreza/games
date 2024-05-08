@@ -35,6 +35,41 @@
   </a>
   </div>
 
+  <div class="search">
+    <input tpye="search" id="search" class="search-games" placeholder="search car games.." onchange="openpage()">
+    </div>
+
+    
+  <script>
+    function openpage() {
+      var open = document.getElementById('search').value;
+
+      if (open === "eggy car") {
+        window.open("/eggy car.html", '_self')
+      }
+
+      if (open === "smash karts") {
+        window.open("/smash karts.html", '_self')
+      } 
+
+      if (open === "drift boss") {
+        window.open("/drift boss.html", '_self')
+      }
+
+      if (open === "slow roads.io") {
+        window.open("/slow roads.html", '_self')
+      }
+
+      if (open === "drive mad") {
+        window.open("/drive mad.html", '_self')
+      }
+
+      if (open === "drift.io") {
+        window.open("/drift io.html", '_self')
+      }
+    }
+    </script>
+
       <div class="centered">
       <a href="eggy car.html">
         <button title="eggy car" class="eggy-car">Eggy car</button>
@@ -62,6 +97,11 @@
           <button title="drive Mad" class="drive">Drive Mad</button>
         </a>
       </div>
+
+      <script>
+        document.addEventListener("keydown", 
+        async (e) => { if ("`" == e.key) window.parent.window.location.replace("https://google.com/") });
+      </script>
 
 </body>
 </html>
