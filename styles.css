@@ -103,6 +103,7 @@ h1 {
 
      button {
       background: transparent;
+      transition: 0.3s;
      }
 
      .eaglercraft {
