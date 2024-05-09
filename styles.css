@@ -811,7 +811,6 @@ h1 {
      }
 
      button:hover {
-      border-color: purple;
       box-shadow: 0px 0px 0px 5px purple;
      }
 
