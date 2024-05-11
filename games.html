@@ -39,232 +39,27 @@
   <input tpye="search" id="search" class="search-games" placeholder="search games.." onchange="openpage()">
 </div>
 
-  <script>
-    function openpage() {
-      var open = document.getElementById('search').value;
 
-      if (open === "1v1.lol") {
-        window.open("/1v1 lol.html", '_self');
-      }
 
-      if (open === "2048") {
-        window.open("/2048.html", '_self');
-      }
+<script> function openpage() {
+  let input = document.getElementById('search').value
+  input = input.toLowerCase();
+  let x = document.getElementsByClassName('card');
 
-      if (open === "among us") {
-        window.open("/among us.html", '_self')
-      }
+  for (i = 0; i < x.length; i++) {
+    if (!x[i].innerHTML.toLowerCase().includes(input)) {
+      x[i].style.display = "none";
+    }
+    else {
+      x[i].style.display = "item";
+    }
+  }
 
-      if (open === "backrooms") {
-        window.open("/backrooms.html", '_self')
-      }
-
-        if (open === "basket random") {
-        window.open("/basket random.html", '_self')
-        }
-
-        if (open === "basketball stars") {
-        window.open("/basketball stars.html", '_self')
-        }
-
-        if (open === "bitlife") {
-          window.open("/bitlife.html", '_self')
-        }
-
-        if (open === "bloonstd") {
-          window.open("/bloonstd.html", '_self')
-        }
-
-        if (open === "boxing random") {
-          window.open("/boxing random.html", '_self')
-        }
-
-        if (open === "chrome dino") {
-          window.open("/chrome dino.html", '_self')
-        }
-
-        if (open === "cookie clicker") {
-          window.open("/cookie clicker,html", '_self')
-        }
-
-        if (open === "crossy road") {
-          window.open("/crossy road.html", '_self')
-        }
-
-        if (open === "csgo clicker") {
-          window.open("/csgo clicker.html", '_self')
-        }
-
-        if (open === "deadshot.io") {
-          window.open("/deadshot.html", '_self')
-        }
-
-        if (open === "death run 3d") {
-          window.open("/death run3d.html", '_self')
-        }
-
-        if (open === "draw the hill") {
-          window.open("/draw the hill.html", 'self')
-        }
-
-        if (open === "drift boss") {
-          window.open("/drift boss.html", '_self')
-        }
-
-        if (open === "drift.io") {
-          window.open("/drift io.html", '_self')
-        }
-
-        if (open === "drive mad") {
-          window.open("/drive mad.html", '_self')
-        }
-
-        if (open === "eaglercraft") {
-          window.open("/eaglercraft.html", '_self')
-        }
-
-        if (open === "eggy car") {
-          window.open("/eggy car.html", '_self')
-        }
-
-        if (open === "ev.io") {
-          window.open("/ev io.html", 'self')
-        }
-
-        if (open === "flappy bird") {
-          window.open("/flappy bird.html", 'self')
-        }
-
-        if (open === "fruit ninja") {
-          window.open("/fruit ninja.html", 'self')
-        }
-
-        if (open === "idle breakout") {
-          window.open("/idle breakou.html", '_self')
-        }
-
-        if (open === "infinite craft") {
-          window.open("/infinite craft.html", '_self')
-        }
-
-        if (open === "you are jeff bazos") {
-          window.open("/jeff bazos.html", '_self')
-        }
-
-        if (open === "krunker.io") {
-          window.open("/krunker.html", '_self')
-        }
-
-        if (open === "lolshot.io") {
-          window.open("/loshot.html", '_self')
-        }
-
-        if (open === "madalin stunt cars 3") {
-          window.open("/madilin stuntcars.html", 'self')
-        }
-
-        if (open === "super mario 64") {
-          window.open("/mario 64.html", '_self')
-        }
-
-        if (open === "mario") {
-          window.open("/mario.html", '_self')
-        }
-
-        if (open === "minecraft classlic") {
-          window.open("/minecraft classic.html", '_self')
-        }
-
-        if (open === "monkey mart") {
-          window.open("/monkey mart.html", '_self')
-        }
-
-        if (open === "paper.io") {
-          window.open("/paper io.html", '_self')
-        }
-
-        if (open === "retro bowl") {
-          window.open("/retro bowl.html", '_self')
-        }
-
-        if (open === "run3") {
-          window.open("/run3.html", '_self')
-        }
-
-        if (open === "santa tracker") {
-          window.open("/santa tracker.html", '_self')
-        }
-
-        if (open === "scrap metal 3") {
-          window.open("/scrap metal3.html", '_self')
-        }
-
-        if (open === "shellshockers") {
-          window.open("/shellshockers.html", '_self')
-        }
-
-        if (open === "slope") {
-          window.open("/slope.html", '_self')
-        }
-
-        if (open === "slope 2") {
-          window.open("/slope2.html", '_self')
-        }
-
-        if (open === "slow roads.io") {
-          window.open("/slow roads.html", '_self')
-        }
-
-        if (open === "smash karts") {
-          window.open("/smash karts.html", '_self')
-        }
-
-        if (open === "snow rider 3d") {
-          window.open("/snow rider3d.html", '_self') 
-        }
-
-        if (open === "soccer random") {
-          window.open("/soccer random.html", '_self')
-        }
-
-        if (open === "spidey swing") {
-          window.open("/spidey swing.html", '_self') 
-        }
-
-        if (open === "temple run2") {
-          window.open("/temple run2.html", '_self')
-        }
-
-        if (open === "tunnel rush") {
-          window.open("/tunnel rush.html", '_self')
-        }
-
-        if (open === "venge.io") {
-          window.open("/venge.io.html", '_self')
-        }
-
-        if (open === "volly random") {
-          window.open("/volly random.html", '_self')
-        }
-
-        if (open === "wordle") {
-          window.open("/wordle.html", '_self')
-        }
-
-        if (open === "worlds hardest game") {
-          window.open("/worlds hardest game.html", '_self')
-        }
-
-        if (open === "worlds hardest game 2") {
-          window.open("/worlds hardest game2.html", '_self')
-        }
-
-        if (open === "tube jumpers") {
-          window.open("/tube jumpers.html", '_self')
-        }
-
-         }
-    </script>
+  if (input === "a") {
+    document.getElementsByClassName('card');
+  }
+}
+</script>
 
 
     <script>
