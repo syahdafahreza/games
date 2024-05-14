@@ -40,33 +40,124 @@
     </div>
 
     
-  <script>
-    function openpage() {
-      var open = document.getElementById('search').value;
-
-      if (open === "eggy car") {
-        window.open("/eggy car.html", '_self')
+    <script> function openpage() {
+      let input = document.getElementById('search').value
+      input = input.toLowerCase();
+      let x = document.getElementsByClassName("card");
+    
+      for (i = 0; i < x.length; i++) {
+        if (!x[i].innerHTML.toLowerCase().includes(input)) {
+          x[i].style.display = "none";
+        }
+        else {
+          x[i].style.display = "card";
+        }
       }
-
-      if (open === "smash karts") {
-        window.open("/smash karts.html", '_self')
-      } 
-
-      if (open === "drift boss") {
-        window.open("/drift boss.html", '_self')
+    
+      if (input === "a") {
+        document.getElementsByClassName('card');
       }
-
-      if (open === "slow roads.io") {
-        window.open("/slow roads.html", '_self')
+    
+      if (input === "b") {
+        document.getElementsByclassName('card');
       }
-
-      if (open === "drive mad") {
-        window.open("/drive mad.html", '_self')
+    
+      if (input === "c") {
+        document.getElementsByClassName('card');
       }
-
-      if (open === "drift.io") {
-        window.open("/drift io.html", '_self')
+    
+      if (input === "d") {
+        document.getElementsByclassName('card');
       }
+    
+      if (input === "e") {
+        docuemt.getElementsByClassName('card');
+      }
+    
+      if (input === "f") {
+        document.getElementsByclassName('card');
+      }
+    
+      if (input === "g") {
+        document.getElementsByClassName('card');
+      }
+    
+      if (input === "h") {
+        document.getElementsByClassName('card');
+      }
+    
+      if (input === "i") {
+        document.getElementsByClassName('card');
+      }
+    
+      if (input === "j") {
+        document.getElementsByClassName('card'); 
+      }
+    
+      if (input === "k") {
+        document.getElementsByClassName('card');
+      }
+    
+      if (input === "l") {
+        document.getElementsByClassName('card');
+      }
+    
+      if ( input === "m") {
+        document.getElementsByClassName('card') 
+      }
+    
+      if (input === "n") {
+        document.getElementsByClassName('card');
+      }
+    
+      if (input === "o") {
+        document.getElementsByclassName('card'); 
+      }
+    
+      if( input === "p") {
+        document.getElementsByClassName('card');
+      }
+    
+      if (input === "q") {
+        document.getElementsByClassName('card');
+      }
+    
+      if (input === "r") {
+        document.getElementsByClassName('card');
+      }
+    
+      if (input === "s") {
+        document.getElementsByClassName('card');
+      }
+    
+      if (input === "t") {
+        document.getElementsByClassName('card');
+      }
+    
+      if (input === "u") {
+        document.getElementsByClassName('card');
+      }
+    
+      if (input === "v") {
+        document.getElementsByClassName('card');
+      }
+    
+      if (input === "w") {
+        document.getElementsByClassName('card');
+      }
+    
+      if (input === "x") {
+        document.getElementsByClassName('card');
+      }
+    
+      if (input === "y") {
+        document.getElementsByClassName('card');
+      }
+    
+      if (input === "z") {
+        document.getElementsByClassName('card');
+      }
+    
     }
     </script>
 

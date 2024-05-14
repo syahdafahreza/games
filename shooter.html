@@ -61,6 +61,131 @@
         </a>
     </div>
 
+    <div class="search">
+    <input type="search" id="search" placeholder="search shooter games..." class="search-games" onchange="openpage()">
+    </div>
+
+    <script> function openpage() {
+      let input = document.getElementById('search').value
+      input = input.toLowerCase();
+      let x = document.getElementsByClassName("card");
+    
+      for (i = 0; i < x.length; i++) {
+        if (!x[i].innerHTML.toLowerCase().includes(input)) {
+          x[i].style.display = "none";
+        }
+        else {
+          x[i].style.display = "card";
+        }
+      }
+    
+      if (input === "a") {
+        document.getElementsByClassName('card');
+      }
+    
+      if (input === "b") {
+        document.getElemenstByclassName('card');
+      }
+    
+      if (input === "c") {
+        document.getElementsByClassName('card');
+      }
+    
+      if (input === "d") {
+        document.getElementsByclassName('card');
+      }
+    
+      if (input === "e") {
+        docuemt.getElementsByClassName('card');
+      }
+    
+      if (input === "f") {
+        document.getElementsByclassName('card') 
+      }
+    
+      if (input === "g") {
+        document.getElementsByClassName('card');
+      }
+    
+      if (input === "h") {
+        document.getElementsByClassName('card');
+      }
+    
+      if (input === "i") {
+        document.getElementsByClassName('card');
+      }
+    
+      if (input === "j") {
+        document.getElementsByClassName('card'); 
+      }
+    
+      if (input === "k") {
+        document.getElementsByClassName('card');
+      }
+    
+      if (input === "l") {
+        document.getElementsByClassName('card');
+      }
+    
+      if ( input === "m") {
+        document.getElementsByClassName('card') 
+      }
+    
+      if (input === "n") {
+        document.getElementsByClassName('card');
+      }
+    
+      if (input === "o") {
+        document.getElementsByclassName('card'); 
+      }
+    
+      if( input === "p") {
+        document.getElementsByClassName('card');
+      }
+    
+      if (input === "q") {
+        document.getElementsByClassName('card');
+      }
+    
+      if (input === "r") {
+        document.getElementsByClassName('card');
+      }
+    
+      if (input === "s") {
+        document.getElementsByClassName('card');
+      }
+    
+      if (input === "t") {
+        document.getElementsByClassName('card');
+      }
+    
+      if (input === "u") {
+        document.getElementsByClassName('card');
+      }
+    
+      if (input === "v") {
+        document.getElementsByClassName('card');
+      }
+    
+      if (input === "w") {
+        document.getElementsByClassName('card');
+      }
+    
+      if (input === "x") {
+        document.getElementsByClassName('card');
+      }
+    
+      if (input === "y") {
+        document.getElementsByClassName('card');
+      }
+    
+      if (input === "z") {
+        document.getElementsByClassName('card');
+      }
+    
+    }
+    </script>
+
       <script>
         document.addEventListener("keydown", 
         async (e) => { if ("`" == e.key) window.parent.window.location.replace("https://google.com/") });
