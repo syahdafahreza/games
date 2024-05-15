@@ -129,10 +129,12 @@ h1 {
       text-align: center;
       margin: 20px;
       transition: 0.3s;
-      padding: 11px;
+      padding: 25px;
       display: inline-block;
       margin-bottom: 25px;
       cursor: pointer;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+      font-style: oblique;
    }
 
    .card:hover {
@@ -140,8 +142,8 @@ h1 {
    }
 
    img {
-      width: 75px;
-      height: 70px;
+      width: 88px;
+      height: 83px;
       border-radius: 10px;
       }
 
