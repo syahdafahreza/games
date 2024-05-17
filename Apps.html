@@ -8,6 +8,8 @@
     <title>Apps</title>
 </head>
 <body>
+
+  onclick="window.open('/', '_self')"
     
   <div class="topnav">
     <a href="games.html">
@@ -36,146 +38,40 @@
   </div>
 
   <div class="search">
-    <input tpye="search" id="search" class="search-games" placeholder="search apps.." onchange="openpage()">
+    <input tpye="search" autocomplete="off" id="search" class="search-games" placeholder="search apps.." 
+    onkeypress="searchgames()">
     </div>
   
      <div class="centered">
-      <a href="bing.html">
-      <div class="card" id="bing"><img src="bing.png"><p>Bing</p></div>
-      </a>
-
-      <a href="gartic phone.html">
-        <div class="card" id="gartic phone"><img src="gartic phone.jpg">Gartic phone</div>
-      </a>
-
-      <a href="neal.fun.html">
-        <div class="card" id="neal.fun"><img src="neal.fun.jpg">Neal.fun</div>
-      </a>
-
-      <a href="windows 11.html">
-        <div class="card" id="windows 11 in react"><img src="windows11.jpg">Windows 11 in react</div>
-      </a>
+     <div class="card" onclick="window.open('/ing.html', '_self')">
+     <img src="bing.png"><p>Bing</p></div>
+     <div class="card" onclick="window.open('/gartic phone.html', '_self')">
+     <img src="gartic phone.jpg">Gartic phone</div>
+     <div class="card" onclick="window.open('/neal.fun.html', '_self')">
+     <img src="neal.fun.jpg">Neal.fun</div>
+     <div class="card" onclick="window.open('/windows11.html', '_self')">
+     <img src="windows11.jpg">Windows 11 in react</div>
      </div>
 
-     <script> function openpage() {
+     <script> function searchgames() {
       let input = document.getElementById('search').value
       input = input.toLowerCase();
       let x = document.getElementsByClassName("card");
-    
       for (i = 0; i < x.length; i++) {
         if (!x[i].innerHTML.toLowerCase().includes(input)) {
           x[i].style.display = "none";
         }
         else {
-          x[i].style.display = "item";
+          x[i].style.display = "block";
         }
       }
-    
-      if (input === "a") {
-        document.getElementsByClassName('card');
-      }
-    
-      if (input === "b") {
-        document.getelemntbyclass('card');
-      }
-    
-      if (input === "c") {
-        document.getElementsByClassName('card');
-      }
-    
-      if (input === "d") {
-        document.getElementByclassName('card');
-      }
-    
-      if (input === "e") {
-        docuemt.getElementsByClassName('card');
-      }
-    
-      if (input === "f") {
-        document.getElementByclassName('card') 
-      }
-    
-      if (input === "g") {
-        document.getElementsByClassName('card');
-      }
-    
-      if (input === "h") {
-        document.getElementsByClassName('card');
-      }
-    
-      if (input === "i") {
-        document.getElementsByClassName('card');
-      }
-    
-      if (input === "j") {
-        document.getElementsByClassName('card'); 
-      }
-    
-      if (input === "k") {
-        document.getElementsByClassName('card');
-      }
-    
-      if (input === "l") {
-        document.getElementsByClassName('card');
-      }
-    
-      if ( input === "m") {
-        document.getElementsByClassName('card') 
-      }
-    
-      if (input === "n") {
-        document.getElementsByClassName('card');
-      }
-    
-      if (input === "o") {
-        document.getElementsByclassName('card'); 
-      }
-    
-      if( input === "p") {
-        document.getElementsByClassName('card');
-      }
-    
-      if (input === "q") {
-        document.getElementsByClassName('card');
-      }
-    
-      if (input === "r") {
-        document.getElementsByClassName('card');
-      }
-    
-      if (input === "s") {
-        document.getElementsByClassName('card');
-      }
-    
-      if (input === "t") {
-        document.getElementsByClassName('card');
-      }
-    
-      if (input === "u") {
-        document.getElementsByClassName('card');
-      }
-    
-      if (input === "v") {
-        document.getElementsByClassName('card');
-      }
-    
-      if (input === "w") {
-        document.getElementsByClassName('card');
-      }
-    
-      if (input === "x") {
-        document.getElementsByClassName('card');
-      }
-    
-      if (input === "y") {
-        document.getElementsByClassName('card');
-      }
-    
-      if (input === "z") {
-        document.getElementsByClassName('card');
-      }
-    
     }
+
+    document.getElementById('search').addEventListener("keydown", (e) => {
+    if (e.key == "Backspace") {
+        searchgames();
+    }
+  });
     </script>
 
       <script>

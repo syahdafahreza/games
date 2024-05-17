@@ -36,11 +36,12 @@
   </div>
 
   <div class="search">
-    <input tpye="search" id="search" class="search-games" placeholder="search car games.." onchange="openpage()">
+    <input tpye="search" id="search" class="search-games" placeholder="search car games.." 
+    onkeypress="searchgames()">
     </div>
 
     
-    <script> function openpage() {
+    <script> function searchgames() {
       let input = document.getElementById('search').value
       input = input.toLowerCase();
       let x = document.getElementsByClassName("card");
@@ -50,154 +51,37 @@
           x[i].style.display = "none";
         }
         else {
-          x[i].style.display = "card";
+          x[i].style.display = "block";
         }
       }
-    
-      if (input === "a") {
-        document.getElementsByClassName('card');
-      }
-    
-      if (input === "b") {
-        document.getElementsByclassName('card');
-      }
-    
-      if (input === "c") {
-        document.getElementsByClassName('card');
-      }
-    
-      if (input === "d") {
-        document.getElementsByclassName('card');
-      }
-    
-      if (input === "e") {
-        docuemt.getElementsByClassName('card');
-      }
-    
-      if (input === "f") {
-        document.getElementsByclassName('card');
-      }
-    
-      if (input === "g") {
-        document.getElementsByClassName('card');
-      }
-    
-      if (input === "h") {
-        document.getElementsByClassName('card');
-      }
-    
-      if (input === "i") {
-        document.getElementsByClassName('card');
-      }
-    
-      if (input === "j") {
-        document.getElementsByClassName('card'); 
-      }
-    
-      if (input === "k") {
-        document.getElementsByClassName('card');
-      }
-    
-      if (input === "l") {
-        document.getElementsByClassName('card');
-      }
-    
-      if ( input === "m") {
-        document.getElementsByClassName('card') 
-      }
-    
-      if (input === "n") {
-        document.getElementsByClassName('card');
-      }
-    
-      if (input === "o") {
-        document.getElementsByclassName('card'); 
-      }
-    
-      if( input === "p") {
-        document.getElementsByClassName('card');
-      }
-    
-      if (input === "q") {
-        document.getElementsByClassName('card');
-      }
-    
-      if (input === "r") {
-        document.getElementsByClassName('card');
-      }
-    
-      if (input === "s") {
-        document.getElementsByClassName('card');
-      }
-    
-      if (input === "t") {
-        document.getElementsByClassName('card');
-      }
-    
-      if (input === "u") {
-        document.getElementsByClassName('card');
-      }
-    
-      if (input === "v") {
-        document.getElementsByClassName('card');
-      }
-    
-      if (input === "w") {
-        document.getElementsByClassName('card');
-      }
-    
-      if (input === "x") {
-        document.getElementsByClassName('card');
-      }
-    
-      if (input === "y") {
-        document.getElementsByClassName('card');
-      }
-    
-      if (input === "z") {
-        document.getElementsByClassName('card');
-      }
-    
     }
+
+    document.getElementById('search').addEventListener("keydown", (e) => {
+    if (e.key == "Backspace") {
+        searchgames();
+    }
+  });
     </script>
 
     <div class="centered">
-      <a href="draw the hill.html">
-        <div class="card" id="draw the hill"><img src="draw the hill.jpg">Draw the hill</div>
-        </a>
-        
-        <a href="drift boss.html">
-        <div class="card" id="drift boss"><img src="drift boss.png"><p>Drift boss</p></div>
-        </a>
-        
-        <a href="drift io.html">
-        <div class="card" id="drift.io"><img src="drift io.jpg">Drift.io</div>
-        </a>
-        
-        <a href="drive mad.html">
-        <div class="card" id="drive mad"><img src="drive mad.jpg">Drive mad</div>
-        </a>
-
-        <a href="eggy car.html">
-        <div class="card" id="eggy car"> <img src="eggy car.jpg">Eggy car</div>
-        </a>
-
-        <a href="madalin stuncars.jpg">
-        <div class="card" id="madalin stunt cars 3"><img src="madalin stuncars.jpg">
-        Madalin stunt cars 3</div>
-        </a>
-
-        <a href="scrap metal3.html">
-        <div class="card" id="scrap metal 3"><img src="scrap metal 3.png">Scrap metal 3</div>
-        </a>
-
-        <a href="slow roads.html">
-        <div class="card" id="slow roads.io"><img src="slow roads.jpg"><p>Slow roads.io</p></div>
-        </a>
-          
-        <a href="smash karts.html">
-        <div class="card" id="smash karts"><img src="smash karts.jpg">Smash karts</div>
-        </a>
+        <div class="card"   onclick="window.open('/draw the hill.html', '_self')">
+        <img src="draw the hill.jpg">Draw the hill</div>
+        <div class="card" onclick="window.open('/drift boss.html', '_self')">  
+        <img src="drift boss.png"><p>Drift boss</p></div>
+        <div class="card"   onclick="window.open('/drift io.html', '_self')">
+        <img src="drift io.jpg">Drift.io</div>
+        <div class="card"   onclick="window.open('/drive mad.html', '_self')">
+        <img src="drive mad.jpg">Drive mad</div>
+        <div class="card"   onclick="window.open('/eggy car.html', '_self')">
+        <img src="eggy car.jpg">Eggy car</div>
+        <div class="card"   onclick="window.open('/madilin stuntcars.html', '_self')">
+        <img src="madalin stuncars.jpg">Madalin stunt cars 3</div>
+        <div class="card"   onclick="window.open('/scrap metal3.html', '_self')">
+        <img src="scrap metal 3.png">Scrap metal 3</div>
+        <div class="card"   onclick="window.open('/slow roads.html', '_self')">
+        <img src="slow roads.jpg"><p>Slow roads.io</p></div>
+        <div class="card"   onclick="window.open('/smash karts.html', '_self')">
+        <img src="smash karts.jpg">Smash karts</div>
 
     </div>
 

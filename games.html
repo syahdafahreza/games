@@ -36,11 +36,12 @@
   </div>
 
   <div class="search">
-  <input tpye="search" id="search" class="search-games" placeholder="search games.." onchange="openpage()">
+  <input tpye="search" autocomplete="off" 
+  id="search" class="search-games" placeholder="search games.." onkeypress="searchgames()">
 </div>
 
 
-<script> function openpage() {
+<script> function searchgames() {
   let input = document.getElementById('search').value
   input = input.toLowerCase();
   let x = document.getElementsByClassName("card");
@@ -50,115 +51,16 @@
       x[i].style.display = "none";
     }
     else {
-      x[i].style.display = "card";
+      x[i].style.display = "block";
+      }
     }
   }
 
-  if (input === "a") {
-    document.getElementsByClassName('card');
-  }
-
-  if (input === "b") {
-    document.getElementsByclassName('card');
-  }
-
-  if (input === "c") {
-    document.getElementsByClassName('card');
-  }
-
-  if (input === "d") {
-    document.getElementsByclassName('card');
-  }
-
-  if (input === "e") {
-    docuemt.getElementsByClassName('card');
-  }
-
-  if (input === "f") {
-    document.getElementByclassName('card') 
-  }
-
-  if (input === "g") {
-    document.getElementsByClassName('card');
-  }
-
-  if (input === "h") {
-    document.getElementsByClassName('card');
-  }
-
-  if (input === "i") {
-    document.getElementsByClassName('card');
-  }
-
-  if (input === "j") {
-    document.getElementsByClassName('card'); 
-  }
-
-  if (input === "k") {
-    document.getElementsByClassName('card');
-  }
-
-  if (input === "l") {
-    document.getElementsByClassName('card');
-  }
-
-  if ( input === "m") {
-    document.getElementsByClassName('card') 
-  }
-
-  if (input === "n") {
-    document.getElementsByClassName('card');
-  }
-
-  if (input === "o") {
-    document.getElementsByclassName('card'); 
-  }
-
-  if( input === "p") {
-    document.getElementsByClassName('card');
-  }
-
-  if (input === "q") {
-    document.getElementsByClassName('card');
-  }
-
-  if (input === "r") {
-    document.getElementsByClassName('card');
-  }
-
-  if (input === "s") {
-    document.getElementsByClassName('card');
-  }
-
-  if (input === "t") {
-    document.getElementsByClassName('card');
-  }
-
-  if (input === "u") {
-    document.getElementsByClassName('card');
-  }
-
-  if (input === "v") {
-    document.getElementsByClassName('card');
-  }
-
-  if (input === "w") {
-    document.getElementsByClassName('card');
-  }
-
-  if (input === "x") {
-    document.getElementsByClassName('card');
-  }
-
-  if (input === "y") {
-    document.getElementsByClassName('card');
-  }
-
-  if (input === "z") {
-    document.getElementsByClassName('card');
-  }
-
-}
+  document.getElementById('search').addEventListener("keydown", (e) => {
+    if (e.key == "Backspace") {
+        searchgames();
+    }
+  });
 </script>
 
 
@@ -167,230 +69,120 @@
       async (e) => { if ("`" == e.key) window.parent.window.location.replace("https://google.com/") });
     </script>
 
+
 <div class="centered">
-<a href="1v1 lol.html">
-  <div class="card" id="1v1.lol"> <img src="1v1 lol.png">1v1.lol</div>
-</a>
-
-<a href="2048.html">
-<div class="card" id="2048"> <img src="2048.png"><p>2048</p></div>
-</a>
-
-<a href="among us.html">
-<div class="card" id="Among us"> <img src="among us.jpg">Among us</div>
-</a>
-
-<a href="backrooms.html">
-<div class="card" id="backrooms"> <img src="backrooms.jpg">Backrooms</div>
-</a>
-
-<a href="basket random.html">
-<div class="card" id="basket random"><img src="basket random.jpg"> Basket random</div>
-</a>
-
-<a href="basketball stars.html">
-<div class="card" id="basketball stars"> <img src="basketball stars.jpg">Basketball stars</div>
-</a>
-
-<a href="basketbros.html">
-<div class="card" id="basket bros"><img src="basketbros.jpg">Basket bros</div>
-</a>
-
-<a href="bitlife.html">
-<div class="card" id="bitlife"> <img src="bitlife.jpg">Bitlife</div>
-</a>
-
-<a href="bloomstd.html">
-<div class="card" id="bloomstd"><img src="bloonstd.jpg">BloonsTD</div>
-</a>
-
-<a href="boxing random.html">
-<div class="card" id="boxing random"><img src="boxing random.jpg">Boxing random</div>
-</a>
-
-<a href="chrome dino.html">
-<div class="card" id="chrome dino"><img src="chrome dino.png">Chrome dino</div>
-</a>
-
-<a href="cookie clicker.html">
-<div class="card" id="cookie clicker"><img src="cookie.png">Cookie clicker</div>
-</a>
-
-<a href="crossy road.html">
-<div class="card" id="crossy road"><img src="crossy road.jpg">Crossy road</div>
-</a>
-
-<a href="csgo clicker.html">
-<div class="card" id="csgo clicker"><img src="csgo clicker.png"><p>Csgo clicker</p></div>
-</a>
-
-<a href="deadshot.html">
-<div class="card" id="deadshot.io"><img src="deadshot.jpg">Deadshot.io</div>
-</a>
-
-<a href="death run3d.html">
-<div class="card" id="death run 3d"><img src="death run3D.png">Death run 3D</div>
-</a>
-
-<a href="draw the hill.html">
-<div class="card" id="draw the hill"><img src="draw the hill.jpg">Draw the hill</div>
-</a>
-
-<a href="drift boss.html">
-<div class="card" id="drift boss"><img src="drift boss.png"><p>Drift boss</p></div>
-</a>
-
-<a href="drift io.html">
-<div class="card" id="drift.io"><img src="drift io.jpg">Drift.io</div>
-</a>
-
-<a href="drive mad.html">
-<div class="card" id="drive mad"><img src="drive mad.jpg">Drive mad</div>
-</a>
-
-<a href="eaglercraft.html">
-<div class="card" id="Eaglercraft"> <img src="eaglercraft.png">Eaglercraft</div>
-</a>
-
-<a href="eggy car.html">
-<div class="card" id="eggy car"> <img src="eggy car.jpg">Eggy car</div>
-</a>
-
-<a href="ev io.html">
-<div class="card" id="card"><img src="ev io.jpg"><p>Ev.io</p></div>
-</a>
-
-<a href="flappy bird.html">
-<div class="card" id="flappy bird" ><img src="flappy bird.png">Flappy bird</div>
-</a>
-
-<a href="fruit ninja.html">
-<div class="card" id="fruit ninja"><img src="Fruit Ninja.jpg">Fruit ninja</div>
-</a>
-
-<a href="idle breakou.html">
-<div class="card" id="idle breakout"><img src="idle breakout.png"><p>Idle breakout</p></div>
-</a>
-
-<a href="infinite craft.html">
-<div class="card" id="infinite craft"><img src="infintie craft.png">Infinite craft</div>
-</a>
-
-<a href="jeff bazos.html">
-<div class="card" id="you are jeff bazos"><img src="JEFF BAZOS.png"><p>You are jeff bazos</p></div>
-</a>
-
-<a href="krunker.html">
-<div class="card" id="krunker.io"><img src="krunker.png">Krunker.io</div>
-</a>
-
-<a href="loshot.html">
-<div class="card" id="lolshot"><img src="lolshot.jpg">Lolshot.io</div>
-</a>
-
-<a href="madalin stuncars.jpg">
-<div class="card" id="madalin stunt cars 3"><img src="madalin stuncars.jpg">Madalin stunt cars 3</div>
-</a>
-
-<a href="mario 64.html">
-<div class="card" id="super mario"> <img src="super mario.png">Super mario 64</div>
-</a>
-
-<a href="mario.html">
-<div class="card" id="mario"><img src="Mario.gif">Mario</div>
-</a>
-
-<a href="minecraft classic.html">
-<div class="card" id="minecraft classic"><img src="minecraft classic.png">Minecraft classic</div>
-</a>
-
-<a href="monkey mart.html">
-<div class="card" id="monkey mart"><img src="monkey mart.jpg">Monkey mart</div>
-</a>
-
-<a href="paper io.html">
-<div class="card" id="paper.io"><img src="paper io.png">Paper.io</div>
-</a>
-
-<a href="retro bowl.jpg">
-<div class="card" id="Retro bowl"><img src="retro bowl.jpg">Retro Bowl</div>
-</a>
-
-<a href="run3.html">
-<div class="card" id="run 3"><img src="run3.jpg"><p>Run 3</p></div>
-</a>
-
-<a href="santa tracker.html" >
-<div class="card" id="santa tracker"><img src="santa tracker.png">Santa tracker</div>
-</a>
-
-<a href="scrap metal3.html">
-<div class="card" id="scrap metal 3"><img src="scrap metal 3.png">Scrap metal 3</div>
-</a>
-
-<a href="shellshockers.html">
-<div class="card" id="shell shockers"><img src="shellshockers.jpg"><p>Shell shockers</p></div>
-</a>
-
-<a href="slope.html">
-<div class="card" id="slope"><img src="slope.jpg">Slope</div>
-</a>
-
-<a href="slope2.html">
-<div class="card" id="slope2"><img src="slope2.png">Slope 2</div>
-</a>
-
-<a href="slow roads.html">
-<div class="card" id="slow roads.io"><img src="slow roads.jpg"><p>Slow roads.io</p></div>
-</a>
-
-<a href="smash karts.html">
-<div class="card" id="smash karts"><img src="smash karts.jpg">Smash karts</div>
-</a>
-
-<a href="snow rider 3D.html">
-<div class="card" id="snow rider 3d"><img src="snow rider 3D.jpg">Snow rider 3D</div>
-</a>
-
-<a href="soccer random.html">
-<div class="card" id="soccer random"><img src="soccer random.jpg">Soccer random</div>
-</a>
-
-<a href="spidey swing.html">
-<div class="card" id="spidey swing"><img src="spidey swing.jpg">Spidey swing</div>
-</a>
-
-<a href="temple run2.html">
-<div class="card" id="temple run2"><img src="temple run2.png">Temple run2</div>
-</a>
-
-<a href="tube jumpers.html">
-<div class="card" id="tube jumpers"><img src="tube jumpers.jpg"><p>Tube jumpers</p></div>
-</a>
-
-<a href="tunnel rush.html">
-<div class="card" id="tunnel rush"><img src="tunnel rush.jpg">Tunnel rush</div>
-</a>
-
-<a href="venge.io.html">
-<div class="card" id="venge.io"><img src="venge.jpg">Venge.io</div>
-</a>
-
-<a href="volly random.html">
-<div class="card" id="volly random"><img src="volly random.jpg">Volly random</div>
-</a>
-
-<a href="wordle.html">
-<div class="card" id="wordle"><img src="wordle.png">Wordle</div>
-</a>
-
-<a href="worlds hardest game.html">
-<div class="card" id="worlds hardest"><img src="worlds hardest game.jpg">WHG</div>
-</a>
-
-<a href="worlds hardest game2.html">
-<div class="card" id="worlds hardest game 2"><img src="worlds hardest game 2.jpg">WHG 2</div>
-</a>
+<div class="card" onclick="window.open('/1v1 lol.html', '_self')"
+><img src="1v1 lol.png">1v1.lol</div>
+<div class="card" onclick="window.open('/2048.html', '_self')">
+<img src="2048.png"><p>2048</p></div>
+<div class="card" onclick="window.open('/among us.html', '_self')">
+<img src="among us.jpg">Among us</div>
+<div class="card" onclick="window.open('/backrooms', '_self')">
+<img src="backrooms.jpg">Backrooms</div>
+<div class="card" onclick="window.open('/basket random.html', '_self')">
+<img src="basket random.jpg">Basket random</div>
+<div class="card" onclick="window.open('/basketball stars.html', '_self')">
+<img src="basketball stars.jpg">Basketball stars</div>
+<div class="card" onclick="window.open('/basket bros.html', '_self')">
+<img src="basketbros.jpg">Basket bros</div>
+<div class="card" onclick="window.open('/bitlife.html')">
+<img src="bitlife.jpg">Bitlife</div>
+<div class="card" onclick="window.open('/bloomstd.html')">
+<img src="bloonstd.jpg">BloonsTD</div>
+<div class="card" onclick="window.open('/boxing random.html', '_self')">
+<img src="boxing random.jpg">Boxing random</div>
+<div class="card" onclick="window.open('/chrome dino.html', '_self')">
+<img src="chrome dino.png">Chrome dino</div>
+<div class="card" onclick="window.open('/cookie clicker.html', '_self')">
+<img src="cookie.png">Cookie clicker</div>
+<div class="card" onclick="window.open('/crossy road.html', '_self')">
+<img src="crossy road.jpg">Crossy road</div>
+<div class="card" onclick="window.open('/csgo clicker.html', '_self')">
+<img src="csgo clicker.png"><p>Csgo clicker</p></div> 
+<div class="card" onclick="window.open('/deadshot.html', '_self')">
+<img src="deadshot.jpg">Deadshot.io</div>
+<div class="card" onclick="window.open('/deathrun3d.html', '_self')">
+<img src="death run3D.png">Death run 3D</div>
+<div class="card" onclick="window.open('/draw the hill.html', '_self')">
+<img src="draw the hill.jpg">Draw the hill</div>
+<div class="card" onclick="window.open('/drift boss.html', '_self')">
+<img src="drift boss.png"><p>Drift boss</p></div>
+<div class="card" onclick="window.open('/drift io.html', '_self')">
+<img src="drift io.jpg">Drift.io</div>
+<div class="card" onclick="window.open('/drive mad.html', '_self')">
+<img src="drive mad.jpg">Drive mad</div>
+<div class="card"onclick="window.open('/eaglercraft.html', '_self')">
+<img src="eaglercraft.png">Eaglercraft</div>
+<div class="card" onclick="window.open('/eggy car.html', '_self')">
+<img src="eggy car.jpg">Eggy car</div>
+<div class="card" onclick="window.open('/ev io.html', '_self')">
+<img src="ev io.jpg"><p>Ev.io</p></div>
+<div class="card" onclick="window.open('/flappy bird.html', '_self')">
+<img src="flappy bird.png">Flappy bird</div>
+<div class="card" onclick="window.open('/fruit ninja.html', '_self')">
+<img src="Fruit Ninja.jpg">Fruit ninja</div>
+<div class="card" onclick="window.open('/idle breakout.html', '_self')">
+<img src="idle breakout.png"><p>Idle breakout</p></div>
+<div class="card" onclick="window.open('/infinite carft.html', '_self')">
+<img src="infintie craft.png">Infinite craft</div>
+<div class="card" onclick="window.open('/jeff bazos.html', '_self')">
+<img src="JEFF BAZOS.png"><p>You are jeff bazos</p></div>
+<div class="card" onclick="window.open('/krunker.html', '_self')">
+<img src="krunker.png">Krunker.io</div>
+<div class="card" onclick="window.open('/lolshot.html', '_self')">
+<img src="lolshot.jpg">Lolshot.io</div>
+<div class="card" onclick="window.open('/madilin stuntcars.html', '_self')">
+<img src="madalin stuncars.jpg">Madalin stunt cars 3</div>
+<div class="card" onclick="window.open('/mario 64.html', '_self')">
+<img src="super mario.png">Super mario 64</div>
+<div class="card" onclick="window.open('/mario.html', '_self')">
+<img src="Mario.gif">Mario</div>
+<div class="card" onclick="window.open('/minecraft classic.html', '_self')">
+<img src="minecraft classic.png">Minecraft classic</div>
+<div class="card" onclick="window.open('/monkey mart.html', '_self')">
+<img src="monkey mart.jpg">Monkey mart</div>
+<div class="card" onclick="window.open('/paper io.html', '_self')">
+<img src="paper io.png">Paper.io</div>
+<div class="card" onclick="window.open('/retro bowl.html', '_self')">
+<img src="retro bowl.jpg">Retro Bowl</div>
+<div class="card" onclick="window.open('/run3.html', '_self')">
+<img src="run3.jpg"><p>Run 3</p></div>
+<div class="card" onclick="window.open('/samta tracker.html', '_self')">
+<img src="santa tracker.png">Santa tracker</div>
+<div class="card" onclick="window.open('/scrap metal3.html', '_self')">
+<img src="scrap metal 3.png">Scrap metal 3</div>
+<div class="card" onclick="window.open('/shellshockers.html', '_self')">
+<img src="shellshockers.jpg"><p>Shell shockers</p></div>
+<div class="card" onclick="window.open('/slope.html', '_self')">
+<img src="slope.jpg">Slope</div>
+<div class="card" onclick="window.open('/slope2.html', '_self')">
+<img src="slope2.png">Slope 2</div>
+<div class="card" onclick="window.open('/slow roads.html', '_self')">
+<img src="slow roads.jpg"><p>Slow roads.io</p></div>
+<div class="card" onclick="window.open('/smah karts.html', '_self')">
+<img src="smash karts.jpg">Smash karts</div>
+<div class="card" onclick="window.open('/snow rider 3d.html', '_self')">
+<img src="snow rider 3D.jpg">Snow rider 3D</div>
+<div class="card" onclick="window.open('/soccer random.html', '_self')">
+<img src="soccer random.jpg">Soccer random</div>
+<div class="card" onclick="window.open('/spidey swing.html', '_self')">
+<img src="spidey swing.jpg">Spidey swing</div>
+<div class="card" onclick="window.open('/temple run2.html', '_self')">
+<img src="temple run2.png">Temple run2</div>
+<div class="card" onclick="window.open('/tube jumpers.html', '_self')">
+<img src="tube jumpers.jpg"><p>Tube jumpers</p></div>
+<div class="card" onclick="window.open('/tunnel rush.html', '_self')">
+<img src="tunnel rush.jpg">Tunnel rush</div>
+<div class="card" onclick="window.open('/venge.io.html', '_self')">
+<img src="venge.jpg">Venge.io</div>
+<div class="card" onclick="window.open('/volly random.html', '_self')">
+<img src="volly random.jpg">Volly random</div>
+<div class="card" onclick="window.open('/wordle.html', '_self')">
+<img src="wordle.png">Wordle</div>
+<div class="card" onclick="window.open('/worlds hardest game.html', '_self')">
+<img src="worlds hardest game.jpg">WHG</div>
+<div class="card" onclick="window.open('/worlds hardest game2.html', '_self')">
+<img src="worlds hardest game 2.jpg">WHG 2</div>
 </div>
 
 </body>

@@ -36,37 +36,27 @@
   </div>
 
     <div class="centered">
-      <a href="1v1 lol.html">
-      <div class="card" id="1v1.lol"> <img src="1v1 lol.png">1v1.lol</div>
-      </a>
-
-      <a href="deadshot.html">
-      <div class="card" id="deadshot.io"><img src="deadshot.jpg">Deadshot.io</div>
-      </a>
-
-      <a href="ev io.html">
-      <div class="card" id="card"><img src="ev io.jpg"><p>Ev.io</p></div>
-      </a>
-
-      <a href="loshot.html">
-        <div class="card" id="lolshot"><img src="lolshot.jpg">Lolshot.io</div>
-        </a>
-
-      <a href="shellshockers.html">
-      <div class="card" id="shell shockers"><img src="shellshockers.jpg"><p>Shell shockers</p></div>
-      </a>
-
-      <a href="venge.io.html">
-        <div class="card" id="venge.io"><img src="venge.jpg">Venge.io</div>
-        </a>
+      <div class="card" onclick="window.open('/1v1 lol.html', '_self')">
+      <img src="1v1 lol.png">1v1.lol</div>
+      <div class="card" onclick="window.open('/deadshot.html', '_self')">
+      <img src="deadshot.jpg">Deadshot.io</div>
+      <div class="card" onclick="window.open('/ev io.html', '_self')">
+      <img src="ev io.jpg"><p>Ev.io</p></div>
+      <div class="card" onclick="window.open('/lolshot.html', '_self')">
+      <img src="lolshot.jpg">Lolshot.io</div>
+      <div class="card" onclick="window.open('/shellshockers.html', '_self')">
+      <img src="shellshockers.jpg"><p>Shell shockers</p></div>
+      <div class="card" onclick="window.open('/venge.io.html', '_self')">
+      <img src="venge.jpg">Venge.io</div>
     </div>
 
     <div class="search">
-    <input type="search" id="search" placeholder="search shooter games..." class="search-games" onchange="openpage()">
+    <input type="search" autocomplete="off" id="search" placeholder="search shooter games..." class="search-games" 
+    onkeypress="searchgames()">
     </div>
 
-    <script> function openpage() {
-      let input = document.getElementById('search').value
+    <script> function searchgames() {
+      let input = document.gelElementById('search').value
       input = input.toLowerCase();
       let x = document.getElementsByClassName("card");
     
@@ -75,114 +65,15 @@
           x[i].style.display = "none";
         }
         else {
-          x[i].style.display = "card";
+          x[i].style.display = "block";
         }
       }
     
-      if (input === "a") {
-        document.getElementsByClassName('card');
-      }
-    
-      if (input === "b") {
-        document.getElemenstByclassName('card');
-      }
-    
-      if (input === "c") {
-        document.getElementsByClassName('card');
-      }
-    
-      if (input === "d") {
-        document.getElementsByclassName('card');
-      }
-    
-      if (input === "e") {
-        docuemt.getElementsByClassName('card');
-      }
-    
-      if (input === "f") {
-        document.getElementsByclassName('card') 
-      }
-    
-      if (input === "g") {
-        document.getElementsByClassName('card');
-      }
-    
-      if (input === "h") {
-        document.getElementsByClassName('card');
-      }
-    
-      if (input === "i") {
-        document.getElementsByClassName('card');
-      }
-    
-      if (input === "j") {
-        document.getElementsByClassName('card'); 
-      }
-    
-      if (input === "k") {
-        document.getElementsByClassName('card');
-      }
-    
-      if (input === "l") {
-        document.getElementsByClassName('card');
-      }
-    
-      if ( input === "m") {
-        document.getElementsByClassName('card') 
-      }
-    
-      if (input === "n") {
-        document.getElementsByClassName('card');
-      }
-    
-      if (input === "o") {
-        document.getElementsByclassName('card'); 
-      }
-    
-      if( input === "p") {
-        document.getElementsByClassName('card');
-      }
-    
-      if (input === "q") {
-        document.getElementsByClassName('card');
-      }
-    
-      if (input === "r") {
-        document.getElementsByClassName('card');
-      }
-    
-      if (input === "s") {
-        document.getElementsByClassName('card');
-      }
-    
-      if (input === "t") {
-        document.getElementsByClassName('card');
-      }
-    
-      if (input === "u") {
-        document.getElementsByClassName('card');
-      }
-    
-      if (input === "v") {
-        document.getElementsByClassName('card');
-      }
-    
-      if (input === "w") {
-        document.getElementsByClassName('card');
-      }
-    
-      if (input === "x") {
-        document.getElementsByClassName('card');
-      }
-    
-      if (input === "y") {
-        document.getElementsByClassName('card');
-      }
-    
-      if (input === "z") {
-        document.getElementsByClassName('card');
-      }
-    
+      document.getElementById('search').addEventListener("keydown", (e) => {
+    if (e.key == "Backspace") {
+        searchgames();
+    }
+  });
     }
     </script>
 

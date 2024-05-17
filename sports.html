@@ -36,154 +36,45 @@
   </div>
 
   <div class="search">
-    <input tpye="search" id="search" class="search-games" placeholder="search sport games.." 
-    onchange="openpage()">
+    <input tpye="search" autocompletet="off" id="search" class="search-games" placeholder="search sport games.." 
+    onchange="searchgames()">
     </div>
 
-    <script> function openpage() {
+    <script> function searchgames() {
       let input = document.getElementById('search').value
       input = input.toLowerCase();
-      let x = document.getElementsByClassName("card");
+      let x =  document.getElementsByClassName("card");
     
       for (i = 0; i < x.length; i++) {
         if (!x[i].innerHTML.toLowerCase().includes(input)) {
           x[i].style.display = "none";
         }
         else {
-          x[i].style.display = "card";
+          x[i].style.display = "block";
         }
       }
-    
-      if (input === "a") {
-        document.getElementsByClassName('card');
-      }
-    
-      if (input === "b") {
-        document.getElementsByclassName('card');
-      }
-    
-      if (input === "c") {
-        document.getElementsByClassName('card');
-      }
-    
-      if (input === "d") {
-        document.getElementsByclassName('card');
-      }
-    
-      if (input === "e") {
-        docuemt.getElementsByClassName('card');
-      }
-    
-      if (input === "f") {
-        document.getElementsByclassName('card') 
-      }
-    
-      if (input === "g") {
-        document.getElementsByClassName('card');
-      }
-    
-      if (input === "h") {
-        document.getElementsByClassName('card');
-      }
-    
-      if (input === "i") {
-        document.getElementsByClassName('card');
-      }
-    
-      if (input === "j") {
-        document.getElementsByClassName('card'); 
-      }
-    
-      if (input === "k") {
-        document.getElementsByClassName('card');
-      }
-    
-      if (input === "l") {
-        document.getElementsByClassName('card');
-      }
-    
-      if ( input === "m") {
-        document.getElementsByClassName('card') 
-      }
-    
-      if (input === "n") {
-        document.getElementsByClassName('card');
-      }
-    
-      if (input === "o") {
-        document.getElementsByclassName('card'); 
-      }
-    
-      if( input === "p") {
-        document.getElementsByClassName('card');
-      }
-    
-      if (input === "q") {
-        document.getElementsByClassName('card');
-      }
-    
-      if (input === "r") {
-        document.getElementsByClassName('card');
-      }
-    
-      if (input === "s") {
-        document.getElementsByClassName('card');
-      }
-    
-      if (input === "t") {
-        document.getElementsByClassName('card');
-      }
-    
-      if (input === "u") {
-        document.getElementsByClassName('card');
-      }
-    
-      if (input === "v") {
-        document.getElementsByClassName('card');
-      }
-    
-      if (input === "w") {
-        document.getElementsByClassName('card');
-      }
-    
-      if (input === "x") {
-        document.getElementsByClassName('card');
-      }
-    
-      if (input === "y") {
-        document.getElementsByClassName('card');
-      }
-    
-      if (input === "z") {
-        document.getElementsByClassName('card');
-      }
-    
-    }</script>
+    }
+
+    document.getElementById('search').addEventListener("keydown", (e) => {
+    if (e.key == "Backspace") {
+        searchgames();
+    }
+  });
+    </script>
 
       <div class="centered"> 
-      <a href="basket random.html">
-      <div class="card" id="basket random"><img src="basket random.jpg"> Basket random</div>
-      </a>
-          
-      <a href="basketball stars.html">
-      <div class="card" id="basketball stars"> <img src="basketball stars.jpg">Basketball stars</div>
-      </a>
-
-      <a href="boxing random.html">
-      <div class="card" id="boxing random"><img src="boxing random.jpg">Boxing random</div>
-      </a>
-
-      <a href="retro bowl.jpg">
-      <div class="card" id="Retro bowl"><img src="retro bowl.jpg">Retro Bowl</div>
-      </a>
-
-      <a href="soccer random.html">
-      <div class="card" id="soccer random"><img src="soccer random.jpg">Soccer random</div>
-      </a>
-
-      <a href="volly random.html">
-      <div class="card" id="volly random"><img src="volly random.jpg">Volly random</div>
-      </a>
+      <div class="card" onclick="window.open('/basket random.html', '_self')">
+      <img src="basket random.jpg"> Basket random</div>
+      <div class="card" onclick="window.open('/basketball stars.html', '_self')">
+      <img src="basketball stars.jpg">Basketball stars</div>
+      <div class="card" onclick="window.open('boxing random.html', '_self')">
+      <img src="boxing random.jpg">Boxing random</div>
+      <div class="card" onclick="window.open('/retro bowl.html', '_self')">
+      <img src="retro bowl.jpg">Retro Bowl</div>
+      <div class="card" onclick="window.open('/soccer random.html', '_self')">
+      <img src="soccer random.jpg">Soccer random</div>
+      <div class="card" onclick="window.open('/volly random.html', '_self')">
+      <img src="volly random.jpg">Volly random</div>
       </div>
 
       <script>
