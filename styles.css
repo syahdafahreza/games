@@ -54,8 +54,8 @@ h1 {
       float: top; 
       float: right;
       margin-top: 0px;
-      margin-bottom: 0px;
       font-size: 20px; 
+      justify-content: space-between;
      }
 
      .divbutton:hover {
