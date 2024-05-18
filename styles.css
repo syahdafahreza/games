@@ -4,7 +4,7 @@
 
 h1 {
     color: rgb(142, 117, 223);
-    font-size: 5rem;
+    font-size: 80px;
     font-family: bold;
     font-style: arial;
     text-align: center;
@@ -12,7 +12,7 @@ h1 {
 
     h2 {
       color: white;
-      font-size: 3.125rem;
+      font-size: 50px;
       font-family: bold;
       font-style: arial;
       text-align: right;
@@ -39,14 +39,14 @@ h1 {
       top: 0px;
       right: 0px;
       width: 100vw;
-      height: 3.5rem;
+      height: 5.5vh;
       position: absolute;
      }
 
      .divbutton {
-      width:  5.625rem; 
-      height: 1.875rem;
-      border-radius: 2.625rem;
+      width:  90px; 
+      height: 30px;
+      border-radius: 42px;
       cursor: pointer; 
       border: none;
       background-color: black;
@@ -54,8 +54,7 @@ h1 {
       float: top; 
       float: right;
       margin-top: 0px;
-      font-size: 1.25rem; 
-      justify-content: space-between;
+      font-size: 20px; 
      }
 
      .divbutton:hover {
@@ -73,29 +72,28 @@ h1 {
      .search-games {
       background: transparent;
       border-color: white;
-      font-size: 1.5rem;
+      font-size: 24px;
       border-style: ridge;
-      width: 37.5rem;
-      height: 1.875rem;
+      width: 600px;
+      height: 30px;
       color: white;
       font-weight: bold;
       margin-bottom: 5vh;
-      margin-top: 1vh;
      }
 
      .about-blank {
-        width:  7.1875rem; 
-        height: 1.875rem;
-        border-radius: 2.625rem;
+        width:  115px; 
+        height: 30px;
+        border-radius: 42px;
         cursor: pointer; 
         border: none;
         background-color: black;
         color: white; 
-        float: top; 
-        float: left;
-        margin-top: 0px;
-        margin-bottom: 0px;
-        font-size: 1.25rem;
+         float: top; 
+         float: left;
+         margin-top: 0px;
+         margin-bottom: 0px;
+         font-size: 20px;
      }
 
      .about-blank:hover {
@@ -120,47 +118,53 @@ h1 {
      }
 
      .card {
-      width: 7.5rem;
-      height: 7.5rem;
+      width: 120px;
+      height: 120px;
       border: none;
-      border-radius: 0.94rem;
+      border-radius: 15px;
       color: rgb(1, 255, 115);
-      font-size: 1.3125rem;
+      font-size: 21px;
       font-weight: bold;
       text-align: center;
-      margin: 1.25rem;
+      margin: 20px;
       transition: 0.3s;
-      padding: 1.5625rem;
+      padding: 25px;
       display: inline-block;
-      margin-bottom: 1.5625px;
+      margin-bottom: 25px;
       cursor: pointer;
       font-family:Verdana, Geneva, Tahoma, sans-serif;
       font-style: oblique;
    }
 
    .card:hover {
-      box-shadow: 0px 0px 0.3125rem 0.3125rem purple;
+      box-shadow: 0px 0px 5px 5px purple;
    }
 
    img {
-      width: 5.5rem;
-      height: 5.1875rem;
-      border-radius: 0.625rem;
+      width: 88px;
+      height: 83px;
+      border-radius: 10px;
       }
 
    .fullscreen {
-      width: 3.125rem;
-      height: 3.125rem;
+      width: 50px;
+      height: 50px;
       background-image: url('fullscreen.png');
       background-size: cover;
       background-color: white;
    }
 
    .p {
-      font-size: 2.5rem;
+      font-size: 40px;
       text-align: center;
       color: rgb(32, 194, 32);
       font-weight: bold;
    }
+
+   .youtube-image {
+      width: 88px;
+      height: px;
+   }
+
     
 
