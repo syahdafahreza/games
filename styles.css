@@ -156,11 +156,15 @@ h1 {
    }
 
    .p {
-      font-size: 50px;
+      font-size: 40px;
       text-align: center;
       color: rgb(32, 194, 32);
       font-weight: bold;
-      font-style: italic;
+   }
+
+   .youtube-image {
+      width: 88px;
+      height: px;
    }
 
     

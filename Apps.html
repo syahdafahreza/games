@@ -8,8 +8,6 @@
     <title>Apps</title>
 </head>
 <body>
-
-  onclick="window.open('/', '_self')"
     
   <div class="topnav">
     <a href="games.html">
@@ -43,14 +41,22 @@
     </div>
   
      <div class="centered">
-     <div class="card" onclick="window.open('/ing.html', '_self')">
-     <img src="bing.png"><p>Bing</p></div>
+     <div class="card" onclick="window.open('/github.html', '_self')">
+     <img src="github.png">Github</div>
+     <div class="card" onclick="window.open('/google.html', '_self')">
+     <img src="google.png"><p>google</p></div>
      <div class="card" onclick="window.open('/gartic phone.html', '_self')">
      <img src="gartic phone.jpg">Gartic phone</div>
      <div class="card" onclick="window.open('/neal.fun.html', '_self')">
      <img src="neal.fun.jpg">Neal.fun</div>
+     <div class="card" onclick="window.open('/spotify.html')">
+     <img src="spotify.png">Spotify</div>
+     <div class="card" onclick="window.open('/vscode.html', '_self')">
+     <img src="vscode.webp">VScode</div>
      <div class="card" onclick="window.open('/windows11.html', '_self')">
-     <img src="windows11.jpg">Windows 11 in react</div>
+     <img src="windows11.jpg">Windows11 in react</div>
+     <div class="card" onclick="window.open('/youtube.html', '_self')">
+     <img src="youtube.png">Youtube</div>
      </div>
 
      <script> function searchgames() {
@@ -75,12 +81,9 @@
     </script>
 
       <script>
-        document.addEventListener("keydown", 
-        async (e) => { if ("`" == e.key) window.parent.window.location.replace("https://google.com/") });
-      </script>
-
-
-    
+      document.addEventListener("keydown", 
+      async (e) => { if ("`" == e.key) window.parent.window.location.replace("https://google.com/") });
+      </script>    
 
 </body>
 </html>
